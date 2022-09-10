@@ -1,0 +1,23 @@
+.main__subscribe {
+  /* background: url('img/subscribe_section/subscribe_background_image.png'); */
+  /* background-color: black; */
+  background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp)
+    center 15.23% / cover no-repeat;
+  /* inset: -40% 0px; */
+}
+.subscribe_text__h2 {
+  color: #fff;
+  justify-content: flex-start;
+  font-size: 40px;
+  font-family: Signika, sans-serif;
+
+  font-weight: 700;
+}
+
+.join_email_list__p {
+  color: #fff;
+  /* color: black; */
+  font-family: Lato, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+}
