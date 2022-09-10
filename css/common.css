@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Open+Sans:wght@700&family=Signika:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --main-font: 'Lato', sans-serif;
+    --title-font: 'Signika', sans-serif;
+    /* Шрифт для футерв Follow Us */
+    --footer-title: 'Open Sans', sans-serif;
+
+    /* Colors */
+    --main-color-text: #3a3c43;
+    --accent-color-text: #44b749;
+
+    /* General styles */
+    font-family: var(--main-font);
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--main-color-text);
 }

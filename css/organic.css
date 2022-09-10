@@ -21,4 +21,14 @@
     margin-left: auto;
 }
 
+.organic__subtitle {
+    color: var(--accent-color-text);
+}
+
+.organic__title {
+    font-family: var(--title-font);
+    font-size: 60px;
+    font-weight: 700;
+}
+
 /* Organic END*/
