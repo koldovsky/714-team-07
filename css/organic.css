@@ -1,4 +1,19 @@
+/* Organic */
+
 .organic {
     background: url(../img/organic_block/background-our-priority.jpg) no-repeat center;
     background-size: cover;
 }
+
+.organic__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.organic__inner {
+    padding: 120px 0;
+}
+
+/* Organic END*/
