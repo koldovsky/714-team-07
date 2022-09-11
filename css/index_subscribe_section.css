@@ -18,10 +18,11 @@
   vertical-align: baseline;
 
 
+
 }
 
 .subscribe__inner {
-  width: 835px;
+  /* width: 1200px; */
   padding-right: 32px;
   padding-left: 32px;
   line-height: 28.9px;
@@ -29,12 +30,16 @@
   vertical-align: baseline;
   /* display: flex; */
   justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
 }
 
 .subscribe__text_field {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .subscribe_text__h2 {

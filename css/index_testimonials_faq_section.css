@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
+
+
+.testimonials__main-title {
+   font-family: var(--title-font), sans-serif;
+   font-size: 60px;
+   text-align: center;
+
+}
+.testimonials__first-paragraph {
+    font-family: open-sans, sans-serif;
+    text-align: center;
+    font-size: 26px;
+
+}
+.testimonials__roller {
+    text-align: center;
+}
+.testimonials-photos__size {
+    font-size: 24px;
+    font-family: var(--title-font);
+}
+.testimonials__color-definition {
+    color: #44b749;
+    font-family: var(--main-font);
+    font-size: 15px;
+}
+.testimonials-text__description {
+    font-family: lato;
+    font-size: 17px;
+}
+.testimonials__link:hover {
+    color: #44b749;
+
+}
+.faq {
+    background-color: #44b749;
+    color: white;
+}
+.faq__title {
+    font-family: var(--title-font);
+    text-align: center;
+    font-size: 40px;
+}
+.faq__question {
+    font-size: 21px;
+    font-family: var(--main-font);
+    text-align: left;
+}
+.faq__answer {
+    font-size: 17px;
+    font-family: var(--main-font);
+    text-align: left;
+}
