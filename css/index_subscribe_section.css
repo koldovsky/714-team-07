@@ -11,14 +11,24 @@
   overflow-wrap: break-word;
   margin: auto;
   padding-top: 100px;
-  padding-right: 24px;
   padding-bottom: 100px;
-  padding-left: 24px;
   /* max-width: 320px; */
   overflow-wrap: break-word;
   position: relative;
   vertical-align: baseline;
 
+
+}
+
+.subscribe__inner {
+  width: 835px;
+  padding-right: 32px;
+  padding-left: 32px;
+  line-height: 28.9px;
+  overflow-wrap: break-word;
+  vertical-align: baseline;
+  /* display: flex; */
+  justify-content: center;
 }
 
 .subscribe__text_field {
@@ -33,6 +43,8 @@
   font-size: 40px;
   font-family: Signika, sans-serif;
   font-weight: 700;
+  padding-bottom: 30px;
+  line-height: 60px;
 }
 
 .join_email_list__p {
