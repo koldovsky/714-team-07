@@ -107,30 +107,27 @@ h3 {
 
 /*Section 'pictures'*/
 
-
+.pictures {
+    background-color: var(--background-color-light);
+}
 
 .pictures_content_delivery { 
-    background: url("../img/services_section/potato.webp")  50% 50% cover no-repeat; 
+    background: url("../img/services_section/potato.webp")  50% 50%; 
     background-origin: content-box;
+    background-position: no-repeat;
+    background-size: cover;
 }
 
-.picture_headlines_h2 {
-    font-family: var(--title-font);
-    color: #ffffff !important;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.picture_headlines {
+.pictures_content_delivery_overlay {
+    background: rgba(0, 0, 0, 0.49);
     margin-top: 100px;
     margin-right: 0px;
     margin-bottom: 100px;
     margin-left: 0px;
 }
 
-.pictures_content_overlay {
-    background: rgba(0, 0, 0, 0.49);
-    width: 1295px;
-    height: 754px;
+.picture_headlines {
+    padding-top: 55px;
+    padding-bottom: 85px;
+    
 }
