@@ -103,45 +103,23 @@ h3 {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-
 }
 
 /*Section 'pictures'*/
 
+
+
 .pictures_content_delivery { 
     background: url("../img/services_section/potato.webp")  50% 50% cover no-repeat; 
-    background-color: var(--background-color-light);
-    
-}
-
-.pictures_content_freshly {
-    background-color: var(--background-color-light);
-    background: url("../img/services_section/wood.webp") 50% 50% cover no-repeat;
-    
-}
-
-.pictures_content_delicious {
-    background-color: var(--background-color-light);
-    background: url("../img/services_section/wine.webp") 50% 50% cover no-repeat;
-    
-}
-
-#pictures {
-    max-width: 1295px;
-    max-height: 754px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    background-origin: content-box;
 }
 
 .picture_headlines_h2 {
     font-family: var(--title-font);
-    color: var(--background-color-light);
+    color: #ffffff !important;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    
 }
 
 .picture_headlines {
