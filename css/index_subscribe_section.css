@@ -3,6 +3,28 @@
   /* background-color: black; */
   background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp) center 15.23% / cover no-repeat;
   /* inset: -40% 0px; */
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.9px;
+  overflow-wrap: break-word;
+  margin: auto;
+  padding-top: 100px;
+  padding-right: 24px;
+  padding-bottom: 100px;
+  padding-left: 24px;
+  /* max-width: 320px; */
+  overflow-wrap: break-word;
+  position: relative;
+  vertical-align: baseline;
+
+}
+
+.subscribe__text_field {
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
 }
 
 .subscribe_text__h2 {
@@ -13,27 +35,22 @@
   font-weight: 700;
 }
 
+.join_email_list__p {
+  color: #fff;
+  /* color: black; */
+  font-family: Lato, sans-serif;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+
 .subscribe_text__hr, .upper_part__hr {
   width: 50%;
   height: 3px;
   color: white;
   opacity: 0.2;
-}
-
-.join_email_list__p {
-  color: #fff;
-  /* color: black; */
-  font-family: Lato, sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-}
-
-.join_email_list__p {
-                color: #fff;
-                font-family: Lato, sans-serif;
-                font-size: 21px;
-                font-weight: 700;
-
+  margin: auto;
 }
 
 .main__feeding_over {
@@ -48,4 +65,21 @@
 
 .picture__img_slider {
   width: 312px;
+}
+
+.subscribe__form_div {
+  margin: auto;
+  margin-top: 50px;
+  width: 634px;
+  background:rgba(58, 60, 67, 0.6);
+  font-weight: 400;
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+  display: block;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.main__feeding_over {
+  margin: auto;
 }
