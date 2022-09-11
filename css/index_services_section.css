@@ -1,0 +1,158 @@
+/*Services section*/
+/*main properties*/
+
+/*  */
+
+:root {
+    --main-font: "Lato", sans-serif;
+    --title-font: "Signika", sans-serif;
+    --main-color-text: #3a3c43;
+    --accent-color-text: #44b749;
+    --background-color: #efefef;
+    --background-color-light: #ffffff;
+
+    /*general styles*/
+    --text-size: 17px;
+    --text-weight: 400;
+    --font-family: var(--main-font);
+    --color: var(--main-color-text);
+     box-sizing: border-box;
+     text-align: left;
+     word-wrap: break-word;
+}
+
+h2 {
+    font-family: var(--title-font);
+    color: var(--main-color-text);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: var(--title-font);
+    color: var(--accent-color-text);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.decoration {
+    color: var(--main-color-text);
+    width: 60px;
+    height: 1px;
+    opacity: .2;
+    
+}
+
+.content {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.card {
+    font-family: var(--main-font);
+    color: var(--main-color-text);
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    background-color: var(--background-color-light);
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.services_content_head {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+
+.services {
+    background-color: var(--background-color);
+    
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+}
+
+.services_content {
+    background: url("../img/services_section/services_bg.webp");
+    background-position: repeat center center;
+    background-size: contain/3654px;
+    background-origin: padding-box;
+    padding-top: 0px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+}
+
+.healthy_box hot_cold free_office {
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}
+
+/*Section 'pictures'*/
+
+.pictures_content_delivery { 
+    background: url("../img/services_section/potato.webp")  50% 50% cover no-repeat; 
+    background-color: var(--background-color-light);
+    
+}
+
+.pictures_content_freshly {
+    background-color: var(--background-color-light);
+    background: url("../img/services_section/wood.webp") 50% 50% cover no-repeat;
+    
+}
+
+.pictures_content_delicious {
+    background-color: var(--background-color-light);
+    background: url("../img/services_section/wine.webp") 50% 50% cover no-repeat;
+    
+}
+
+#pictures {
+    max-width: 1295px;
+    max-height: 754px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.picture_headlines_h2 {
+    font-family: var(--title-font);
+    color: var(--background-color-light);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+.picture_headlines {
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+
+.pictures_content_overlay {
+    background: rgba(0, 0, 0, 0.49);
+    width: 1295px;
+    height: 754px;
+}

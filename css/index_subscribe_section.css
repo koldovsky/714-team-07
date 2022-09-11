@@ -1,23 +1,97 @@
 .main__subscribe {
   /* background: url('img/subscribe_section/subscribe_background_image.png'); */
   /* background-color: black; */
-  background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp)
-    center 15.23% / cover no-repeat;
+  background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp) center 15.23% / cover no-repeat;
   /* inset: -40% 0px; */
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.9px;
+  overflow-wrap: break-word;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* max-width: 320px; */
+  overflow-wrap: break-word;
+  position: relative;
+  vertical-align: baseline;
+
+
 }
+
+.subscribe__inner {
+  width: 835px;
+  padding-right: 32px;
+  padding-left: 32px;
+  line-height: 28.9px;
+  overflow-wrap: break-word;
+  vertical-align: baseline;
+  /* display: flex; */
+  justify-content: center;
+}
+
+.subscribe__text_field {
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
 .subscribe_text__h2 {
   color: #fff;
   justify-content: flex-start;
   font-size: 40px;
   font-family: Signika, sans-serif;
-
   font-weight: 700;
+  padding-bottom: 30px;
+  line-height: 60px;
 }
 
 .join_email_list__p {
   color: #fff;
   /* color: black; */
   font-family: Lato, sans-serif;
+  justify-content: flex-start;
+  text-align: center;
   font-size: 21px;
   font-weight: 700;
+}
+
+.subscribe_text__hr, .upper_part__hr {
+  width: 50%;
+  height: 3px;
+  color: white;
+  opacity: 0.2;
+  margin: auto;
+}
+
+.main__feeding_over {
+  background: #f7f7f4;
+  background-color: rgb(247, 247, 244);
+  font-family: Lato, sans-serif;
+}
+
+.feeding_over_text_green_part {
+  color: #44b749 !important;
+}
+
+.picture__img_slider {
+  width: 312px;
+}
+
+.subscribe__form_div {
+  margin: auto;
+  margin-top: 50px;
+  width: 634px;
+  background:rgba(58, 60, 67, 0.6);
+  font-weight: 400;
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+  display: block;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.main__feeding_over {
+  margin: auto;
 }
