@@ -22,6 +22,7 @@
 }
 
 .organic__subtitle {
+    font-weight: 700;
     color: var(--accent-color-text);
     margin-bottom: 20px;
 }
@@ -75,7 +76,7 @@
 
 .achievement {
     position: relative;
-    background: url(../img/organic_block/achievement-bg.jpeg) no-repeat center /cover;
+    background: #92CE2B url(../img/organic_block/achievement-bg.jpeg) no-repeat center /cover;
     background-attachment: fixed;
     z-index: 100;
 }
