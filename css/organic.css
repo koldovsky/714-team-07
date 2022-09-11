@@ -22,6 +22,7 @@
 }
 
 .organic__subtitle {
+    font-weight: 700;
     color: var(--accent-color-text);
     margin-bottom: 20px;
 }
@@ -73,6 +74,45 @@
 
 /* Achievement */
 
+.achievement {
+    position: relative;
+    background: #92CE2B url(../img/organic_block/achievement-bg.jpeg) no-repeat center /cover;
+    background-attachment: fixed;
+    z-index: 100;
+}
 
+.bg-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-color: rgba(146, 206, 43, .8);
+}
+
+.achievement__inner {
+    padding: 50px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.achievement__card {
+    flex: 0 0 23%;
+    text-align: center;
+    color: #fff;
+}
+
+.achievement__count {
+    font-size: 42px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.achievement__text {
+    font-size: 14px;
+    font-weight: 700;
+}
 
 /* Achievement END */
