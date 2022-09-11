@@ -23,12 +23,48 @@
 
 .organic__subtitle {
     color: var(--accent-color-text);
+    margin-bottom: 20px;
 }
 
 .organic__title {
     font-family: var(--title-font);
     font-size: 60px;
     font-weight: 700;
+    text-align: start;
+    margin-bottom: 25px;
 }
 
+.organic__text {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.organic__services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 29px;
+    row-gap: 15px;
+}
+
+.services__card {
+    flex: 0 0 47.4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.services__card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.services__card-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 1.5;
+}
 /* Organic END*/
