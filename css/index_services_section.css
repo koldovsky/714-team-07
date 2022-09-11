@@ -48,10 +48,10 @@ h3 {
     font-size: var(--text-size);
     font-weight: var(--text-weight);
     background-color: var(--background-color-light);
-    padding-top: 0px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
     margin-top: 50px;
     margin-right: 0px;
     margin-bottom: 50px;
@@ -80,4 +80,16 @@ h3 {
     padding-right: 24px;
     padding-bottom: 0px;
     padding-left: 24px;
+}
+
+.healthy_box hot_cold free_office {
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
 }
