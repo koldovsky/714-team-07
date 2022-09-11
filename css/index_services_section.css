@@ -67,6 +67,7 @@ h3 {
 
 .services {
     background-color: var(--background-color);
+    
     padding-top: 90px;
     padding-right: 0px;
     padding-bottom: 90px;
@@ -74,8 +75,10 @@ h3 {
 }
 
 .services_content {
-    background: url(../img/services_section/) norepeat center;
-    background-size: cover;
+    background: url("../img/services_section/services_bg.webp");
+    background-position: repeat center center;
+    background-size: contain/3654px;
+    background-origin: padding-box;
     padding-top: 0px;
     padding-right: 24px;
     padding-bottom: 0px;
