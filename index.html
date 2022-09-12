@@ -688,14 +688,19 @@
                     </div>
                 </div>
                 <div class="subscribe__form_div">
-                    <form action="#" class="form_div__form">
-                        <input type="text" class="form__input" placeholder="Email*" />
-                        <br />
-                        <!-- <a href="subscribe" class="button">Subscribe</a> -->
-                        <button type="submit" class="form__button">
-                            <span class="button__subscribe_text">Subscribe</span>
-                        </button>
-                    </form>
+                    <div class="form_div__inner">
+                        <form action="#" class="form_div__form">
+                            <div class="form__framing">
+                                <input type="email" class="form__input" placeholder="Email*" />
+                                <input type="text" autocomplete="off" class="framing__text">
+                            </div>
+                            <!-- <br /> -->
+                            <!-- <a href="subscribe" class="button">Subscribe</a> -->
+                            <button type="submit" class="form__button">
+                                <span class="button__subscribe_text">Subscribe</span>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
