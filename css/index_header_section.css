@@ -72,7 +72,7 @@ header a:hover::before {
 
 .header__main {
   height: 800px;
-  background-image: url(/img/background-img.jpg);
+  background-image: url(/img/background-img.webp);
   background-position: center;
   background-size: cover;
 }
