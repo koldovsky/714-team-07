@@ -177,6 +177,192 @@
   margin: 0em;
 }
 
+.form__button {
+  margin-top: 24px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  text-decoration: none;
+  text-align: center;
+  background-position: 50%;
+  overflow: visible;
+  cursor: pointer;
+  transition: color .2s ease-in,background-color .2s ease-in,border-color .2s ease-in,box-shadow .2s ease-in,-webkit-box-shadow .2s ease-in;
+  word-wrap: break-word;
+  padding: 15px 30px;
+  border-radius: 27px;
+  font-size: 16px;
+  line-height: 1.38em;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 0 0 0 transparent;
+  background-color: #92ce2b;
+  background-image: linear-gradient(0deg,transparent,transparent);
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  text-transform: none;
+  border: 0;
+  box-sizing: border-box;
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  text-indent: 0px;
+  text-shadow: none;
+  align-items: flex-start;
+}
+
+.button__subscribe_border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: inherit;
+  border-width: 2px;
+  border-radius: 27px;
+  border-color: transparent;
+  border-style: solid;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  word-wrap: break-word;
+  letter-spacing: 0;
+  color: #fff;
+  text-transform: none;
+  box-sizing: border-box;
+}
+
+.button__subscribe_text {
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0;
+  color: #fff;
+  text-transform: none;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  text-indent: 0px;
+  text-shadow: none;
+  box-sizing: border-box;
+}
+
+.main__feeding_over {
+  background: #f7f7f4;
+  background-color: rgb(247, 247, 244);
+  font-family: Lato, sans-serif;
+  /* margin: auto; */
+
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  display: block;
+  word-wrap: break-word;
+}
+
+.feeding_over__central_part {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  position: relative;
+  min-width: 320px;
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: Lato,sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  z-index: 1;
+  flex-basis: 100%;
+  flex-shrink: 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+.centaral_part__main_objects {
+  padding: 0 40px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 0;
+  color: #3a3c43;
+  box-sizing: border-box;
+}
+
+.main_objects__upper_part {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  color: #3a3c43;
+}
+
+.upper_part__paragraph_text {
+  justify-content: center;
+  font-size: 60px;
+  color: #3a3c43;
+  line-height: 1.2;
+  font-family: Signika,sans-serif;
+  font-weight: 700;
+  text-transform: none;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0;
+  position: relative;
+  max-width: 100%;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.paragraph_text__feeding_over_text {
+  display: block;
+  padding-bottom: 30px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #3a3c43;
+  text-transform: none;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  text-align: center;
+  box-sizing: border-box;
+
+}
+
+
+.feeding_over_text_green_part {
+  color: #44b749 !important;
+  text-transform: none;
+  letter-spacing: 0;
+  word-wrap: break-word;
+  text-align: center;
+  box-sizing: border-box;
+}
 
 .join_email_list__p {
   
@@ -198,16 +384,7 @@
   text-align: center;
 }
 
-.main__feeding_over {
-  background: #f7f7f4;
-  background-color: rgb(247, 247, 244);
-  font-family: Lato, sans-serif;
-  margin: auto;
-}
 
-.feeding_over_text_green_part {
-  color: #44b749 !important;
-}
 
 .picture__img_slider {
   width: 312px;
