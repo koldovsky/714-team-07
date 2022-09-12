@@ -1,0 +1,9 @@
+map_style. {
+    color: #3a3c43;
+    position: relative;
+    min-width: 320px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 300px;
+    font-family: Signika, sans-serif;
+}
