@@ -1,9 +1,36 @@
-map_style. {
+.map_style {
     color: #3a3c43;
     position: relative;
     min-width: 320px;
     padding-top: 90px;
-    padding-bottom: 90px;
-    font-size: 300px;
+    padding-bottom: 20px;
+    font-size: 60px;
     font-family: Signika, sans-serif;
+}
+.line-our-coverage {
+   
+    color: #3a3c43;
+    opacity: 0.4;
+    left: 50%;
+    width: 60px; 
+    height: 1px;
+    margin: auto;
+}
+.current_location {
+    position: relative;
+    width: 1017px;
+    height: 450px;
+    /*position: relative;*/
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+    box-sizing: border-box;
+   
+    
+}
+.map {
+    
 }
