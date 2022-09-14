@@ -1,4 +1,4 @@
-This is project of TEAM # 7 714 "HTML/CSS/JS Fundamentals".
+This is the project of TEAM # 7 714 "HTML/CSS/JS Fundamentals".
 
 [Weblium:](https://yxv04.weblium.site/)
 

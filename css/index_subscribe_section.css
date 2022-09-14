@@ -53,7 +53,7 @@
 }
 
 .subscribe_text__h2 {
-  color: #fff;
+  color: --simple-color-text;
   justify-content: flex-start;
   font-size: 60px;
   font-family: Signika, sans-serif;
@@ -68,7 +68,7 @@
 
 .subscribe_text__hr,
 .upper_part__hr {
-  color: white;
+  color: --simple-color-text;
   opacity: 0.2;
   left: 50%;
   width: 60px;
@@ -81,12 +81,12 @@
   margin-top: 50px;
   width: 570px;
   height: 220.167px;
-  background: rgba(58, 60, 67, 0.6);
+  background: --form-background-color;
   font-weight: 400;
   font-size: 17px;
   font-family: --main-font;
   display: block;
-  color: #fff;
+  color: --simple-color-text;
   box-sizing: border-box;
 
   padding-left: 15px;
@@ -108,8 +108,8 @@
   text-align: left;
   display: block;
   box-sizing: border-box;
-  border-color: #f7f7f4;
-  background-color: rgba(255, 255, 255, 0.24);
+  border-color: --border-color-form;
+  background-color: --form-framing-background-color;
   /* padding: 15px 30px; */
   font-size: 16px;
   border-radius: 27px;
@@ -118,9 +118,9 @@
 }
 
 .form__input {
-  border-color: #f7f7f4;
-  background-color: rgba(255, 255, 255, 0.24);
-  color: #fff;
+  border-color: --border-color-form;
+  background-color: --form-framing-background-color;
+  color: --simple-color-text;
   line-height: 1.38;
   display: block;
   width: 100%;
@@ -192,9 +192,9 @@
   line-height: 1.38em;
   letter-spacing: 0;
   font-weight: 700;
-  color: #fff;
+  color: --simple-color-text;
   box-shadow: 0 0 0 0 transparent;
-  background-color: #92ce2b;
+  background-color: --form-button-background-color;
   background-image: linear-gradient(0deg, transparent, transparent);
   font-family: --main-font;
   font-style: normal;
@@ -231,7 +231,7 @@
   cursor: pointer;
   word-wrap: break-word;
   letter-spacing: 0;
-  color: #fff;
+  color: --simple-color-text;
   text-transform: none;
   box-sizing: border-box;
 }
@@ -247,7 +247,7 @@
   text-align: center;
   cursor: pointer;
   letter-spacing: 0;
-  color: #fff;
+  color: --simple-color-text;
   text-transform: none;
   writing-mode: horizontal-tb;
   text-rendering: auto;
@@ -257,7 +257,7 @@
 }
 
 .join_email_list__p {
-  color: #fff;
+  color: --simple-color-text;
   display: block;
   font-family: --main-font;
   justify-content: flex-start;
@@ -276,8 +276,8 @@
 }
 
 .main__feeding_over {
-  background: #f7f7f4;
-  background-color: rgb(247, 247, 244);
+  background: --border-color-form;
+  background-color: --background-color-feeding-over;
   font-family: --main-font;
   /* margin: auto; */
 
