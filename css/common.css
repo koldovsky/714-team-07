@@ -19,6 +19,9 @@
   --border-color-form: #f7f7f4;
   --background-color-feeding-over: rgb(247, 247, 244);
   --simple-color-text: #fff;
+  --form-background-color: rgba(58, 60, 67, 0.6);
+  --form-framing-background-color: rgba(255, 255, 255, 0.24);
+  --form-button-background-color: #92ce2b;
 
   /* General styles */
   font-family: var(--main-font);
