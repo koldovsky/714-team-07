@@ -1,6 +1,6 @@
 .text-hiding {
     font-size: 26px;
-    color: #44b749!important;
+    color: var(--accent-color-text);
    
 }
 
