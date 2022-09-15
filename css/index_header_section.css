@@ -6,9 +6,9 @@
 }
 
 .header ul {
-  font-family: "Lato", sans-serif;
+  font-family: var(--main-font);
   font-size: 16px;
-  color: rgb(58, 60, 67);
+  color: var(--main-color-text);
   display: flex;
 }
 
@@ -23,7 +23,7 @@
     to right,
     var(--form-button-background-color),
     var(--form-button-background-color) 50%,
-    #000 50%
+    rgb(0, 0, 0) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -78,7 +78,7 @@
 }
 
 .header__main-content {
-  font-family: "Signika", sans-serif;
+  font-family: var(--title-font);
   font-weight: 700;
   font-size: 80px;
   width: 800px;
