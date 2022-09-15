@@ -14,14 +14,14 @@
   --footer-title: 'Open Sans', sans-serif;
 
   /* Colors */
-  --main-color-text: #3a3c43;
-  --accent-color-text: #44b749;
-  --border-color-form: #f7f7f4;
+  --main-color-text: rgb(58, 60, 67);
+  --accent-color-text: rgb(68, 183, 73);
+  --border-color-form: rgb(247, 247, 244);
   --background-color-feeding-over: rgb(247, 247, 244);
-  --simple-color-text: #fff;
+  --simple-color-text: rgb(255, 255, 255);
   --form-background-color: rgba(58, 60, 67, 0.6);
   --form-framing-background-color: rgba(255, 255, 255, 0.24);
-  --form-button-background-color: #92ce2b;
+  --form-button-background-color: rgb(146, 206, 43);
 
   /* General styles */
   font-family: var(--main-font);
