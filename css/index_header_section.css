@@ -71,10 +71,13 @@
 }
 
 .header__main {
-  height: 800px;
   background-image: url(../img/background-img.webp);
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .header__main-content {
@@ -89,6 +92,10 @@
 
 .header-title {
   margin: 0;
+}
+
+.header__button {
+  margin: auto;
 }
 
 #scroll {
