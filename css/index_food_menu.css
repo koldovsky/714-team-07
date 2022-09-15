@@ -2,28 +2,28 @@
         background-image: url(../img/mybackground.webp);
     }
     
-    .top__of__menu {
+    .top_of_menu {
         color: black;
         font-size: 64px;
         font-family: Ubuntu;
         text-align: center;
     }
 
-    .swipes__of__food {
+    .swipes_of_food {
         color: black;
         font-size: 32px;
         font-family: Raleway;
         text-align: center;
     }
 
-    .bottom__of__menu {
+    .bottom_of_menu {
         color: black;
         font-size: 64px;
         font-family: Ubuntu;
         text-align: center;
     }
 
-    .smaller__img {
+    .smaller_img {
         width: 70px;  
         height: auto;  
         text-align: center;  
