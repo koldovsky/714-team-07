@@ -10,9 +10,15 @@
     }
 
     .swipes__of__food {
-
+        color: black;
+        font-size: 16px;
+        font-family: Raleway;
+        text-align: center;
     }
 
     .bottom__of__menu {
-
+        color: black;
+        font-size: 32px;
+        font-family: Ubuntu;
+        text-align: center;
     }
