@@ -1,6 +1,7 @@
 .main__subscribe {
-  background: url('../img/subscribe_section/subscribe_background_image.png');
   /* background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp) center 15.23% / cover no-repeat; */
+  background: url('../img/subscribe_section/subscribe_background_image.png');
+  background-position: center 15.23%;
   box-sizing: border-box;
   font-family: var(--main-font);
   font-size: 17px;
@@ -10,16 +11,12 @@
   margin: auto;
   padding-top: 100px;
   padding-bottom: 100px;
-  /* max-width: 320px; */
   overflow-wrap: break-word;
   position: relative;
   vertical-align: baseline;
 }
 
 .subscribe__inner {
-  width: 1760px;
-  /* padding-right: 32px;
-  padding-left: 32px; */
   padding-top: 0px;
   padding-right: 40px;
   padding-bottom: 0px;
@@ -27,15 +24,13 @@
   line-height: 28.9px;
   overflow-wrap: break-word;
   vertical-align: baseline;
-  /* display: flex; */
   justify-content: center;
   display: block;
-  /* margin-left: auto;
-  margin-right: auto  */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subscribe__text_field {
-  /* padding-top: 100px; */
   position: relative;
   z-index: 1;
   box-sizing: border-box;
@@ -56,7 +51,7 @@
   color: var(--simple-color-text);
   justify-content: flex-start;
   font-size: 60px;
-  font-family: Signika, sans-serif;
+  font-family: var(--title-font);
   font-weight: 700;
   text-align: center;
   line-height: 60px;
@@ -79,7 +74,6 @@
 .subscribe__form_div {
   margin: auto;
   margin-top: 50px;
-  width: 570px;
   height: 220.167px;
   background: var(--form-background-color);
   font-weight: 400;
@@ -280,7 +274,6 @@
   background-color: var(--background-color-feeding-over);
   font-family: var(--main-font);
   /* margin: auto; */
-
   position: relative;
   margin: 0;
   padding: 0;
