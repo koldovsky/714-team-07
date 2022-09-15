@@ -22,3 +22,11 @@
         font-family: Ubuntu;
         text-align: center;
     }
+
+    .img {
+        width: 300px;  
+        height: auto;  
+        text-align: center;  
+        padding: 15px;
+    }
+  
