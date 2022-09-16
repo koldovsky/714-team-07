@@ -57,7 +57,8 @@
   font-weight: 700;
 }
 
-.subscribe_text__hr, .upper_part__hr {
+.subscribe_text__hr,
+.upper_part__hr {
   width: 50%;
   height: 3px;
   color: white;
@@ -83,7 +84,7 @@
   margin: auto;
   margin-top: 50px;
   width: 634px;
-  background:rgba(58, 60, 67, 0.6);
+  background: rgba(58, 60, 67, 0.6);
   font-weight: 400;
   font-size: 17px;
   font-family: Lato, sans-serif;

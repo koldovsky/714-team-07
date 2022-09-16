@@ -1,0 +1,21 @@
+.faq {
+    color: white;
+    background: url(../img/faq-bg.webp);
+    background-size: cover;
+}
+
+.faq__title {
+    font-family: var(--title-font);
+    text-align: center;
+    font-size: 40px;
+}
+.faq__question {
+    font-size: 21px;
+    font-family: var(--main-font);
+    text-align: left;
+}
+.faq__answer {
+    font-size: 17px;
+    font-family: var(--main-font);
+    text-align: left;
+}
