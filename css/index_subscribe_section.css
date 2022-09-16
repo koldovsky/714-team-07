@@ -1,7 +1,8 @@
 .main__subscribe {
   /* background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp) center 15.23% / cover no-repeat; */
   background: url('../img/subscribe_section/subscribe_background_image.png');
-  background-position: center 15.23%;
+  background-position: center 50%;
+  background-size: cover;
   box-sizing: border-box;
   font-family: var(--main-font);
   font-size: 17px;
@@ -9,8 +10,8 @@
   line-height: 28.9px;
   overflow-wrap: break-word;
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   overflow-wrap: break-word;
   position: relative;
   vertical-align: baseline;
@@ -50,11 +51,11 @@
 .subscribe_text__h2 {
   color: var(--simple-color-text);
   justify-content: flex-start;
-  font-size: 60px;
+  font-size: 40px;
   font-family: var(--title-font);
   font-weight: 700;
   text-align: center;
-  line-height: 60px;
+  line-height: 48px;
   padding-bottom: 30px;
   vertical-align: baseline;
   box-sizing: border-box;
@@ -74,7 +75,6 @@
 .subscribe__form_div {
   margin: auto;
   margin-top: 50px;
-  height: 220.167px;
   background: var(--form-background-color);
   font-weight: 400;
   font-size: 17px;
@@ -82,15 +82,12 @@
   display: block;
   color: var(--simple-color-text);
   box-sizing: border-box;
-
   padding-left: 15px;
   padding-right: 15px;
+  max-width: 570px;
 }
 .form_div__inner {
-  padding-bottom: 40px;
-  padding-top: 40px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 31px 27px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -123,7 +120,7 @@
   background: none;
   box-shadow: none;
   text-overflow: ellipsis;
-  border: 0;
+  border: none;
   padding: 15px 30px;
   font-size: 16px;
   border-radius: 27px;
@@ -140,6 +137,11 @@
   cursor: text;
   margin: 0em;
   word-wrap: break-word;
+}
+
+.form__input:focus {
+  outline: auto;
+  outline-color: #3b99fc;
 }
 
 .framing__text {
