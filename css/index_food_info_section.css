@@ -1,10 +1,16 @@
-.text-hiding {
-    font-size: 26px;
-    color: var(--accent-color-text);
-   
-}
-
-.image-eat__container {
+.image-food__container {
+    display: block;
     width: 250px;
 }
 
+@media (min-width: 768px) {
+
+    .image-food__container {
+        display: flex;
+    }
+
+    .eat-like__container {
+        display: flex;
+    }
+
+}
