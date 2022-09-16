@@ -29,3 +29,8 @@
   font-weight: 400;
   color: var(--main-color-text);
 }
+
+img {
+  display: block;
+  width: 100%;
+}
