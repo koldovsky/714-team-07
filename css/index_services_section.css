@@ -86,7 +86,7 @@ h3 {
 .services_content {
     background: url("../img/services_section/services_bg.webp");
     background-position: repeat center center;
-    background-size: contain/3654px;
+    background-size: contain;
     background-origin: padding-box;
     padding-top: 0px;
     padding-right: 24px;
@@ -103,56 +103,44 @@ h3 {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
-
 }
 
 /*Section 'pictures'*/
 
+.pictures {
+    background-color: var(--background-color-light);
+}
+
 .pictures_content_delivery { 
-    background: url("../img/services_section/potato.webp")  50% 50% cover no-repeat; 
-    background-color: var(--background-color-light);
-    
+    background: url("../img/services_section/potato.webp");
+    background-origin: padding-box;
+    background-position: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+
 }
 
-.pictures_content_freshly {
-    background-color: var(--background-color-light);
-    background: url("../img/services_section/wood.webp") 50% 50% cover no-repeat;
-    
-}
-
-.pictures_content_delicious {
-    background-color: var(--background-color-light);
-    background: url("../img/services_section/wine.webp") 50% 50% cover no-repeat;
-    
-}
-
-#pictures {
-    max-width: 1295px;
-    max-height: 754px;
+.pictures_content_delivery_overlay {
+    background: rgba(0, 0, 0, 0.49);
     margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
-}
-
-.picture_headlines_h2 {
-    font-family: var(--title-font);
-    color: var(--background-color-light);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    
+    margin-right: 32px;
+    margin-bottom: 0px;
+    margin-left: 32px;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 85px;
+    padding-left: 0px;
 }
 
 .picture_headlines {
-    margin-top: 100px;
-    margin-right: 0px;
-    margin-bottom: 100px;
-    margin-left: 0px;
+    padding-top: 155px;
+    padding-bottom: 185px;
+    
 }
 
-.pictures_content_overlay {
-    background: rgba(0, 0, 0, 0.49);
-    width: 1295px;
-    height: 754px;
+.picture_headlines_h2 {
+    color: #ffffff; 
+    text-align: center;
+    font-size: 69px;
 }

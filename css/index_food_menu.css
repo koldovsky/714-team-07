@@ -1,0 +1,32 @@
+    .background {
+        background-image: url(../img/mybackground.webp);
+    }
+    
+    .top_of_menu {
+        color: black;
+        font-size: 64px;
+        font-family: Ubuntu;
+        text-align: center;
+    }
+
+    .swipes_of_food {
+        color: black;
+        font-size: 32px;
+        font-family: Raleway;
+        text-align: center;
+    }
+
+    .bottom_of_menu {
+        color: black;
+        font-size: 64px;
+        font-family: Ubuntu;
+        text-align: center;
+    }
+
+    .smaller_img {
+        width: 500px;  
+        height: auto;  
+        text-align: center;  
+        padding: 15px;
+    }
+  

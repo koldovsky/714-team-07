@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+}
+
+.header ul {
+  font-family: var(--main-font);
+  font-size: 16px;
+  color: var(--main-color-text);
+  display: flex;
+}
+
+.header li {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+
+.header a {
+  background-image: linear-gradient(
+    to right,
+    var(--form-button-background-color),
+    var(--form-button-background-color) 50%,
+    rgb(0, 0, 0) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.header a:before {
+  content: "";
+  background: rgb(110, 172, 2);
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header a:hover {
+  background-position: 0;
+}
+
+.header a:hover::before {
+  width: 100%;
+}
+
+.nav__page-logo {
+  padding: 10px;
+}
+
+
+.nav__menu-list {
+  list-style: "|";
+  margin: 0;
+  padding: 0;
+}
+
+#first-list-item {
+  list-style: none;
+}
+
+.header__main {
+  background-image: url(../img/background-img.webp);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__main-content {
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 80px;
+  width: 800px;
+  margin: 0 150px;
+  padding: 220px 15px;
+  text-align: left;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header__button {
+  margin: auto;
+}
+
+#scroll {
+  text-decoration: none;
+  color: white;
+  background-color: var(--form-button-background-color);
+  border-width: 2px;
+  border-radius: 32px;
+  font-size: 18px;
+  padding: 18px 35px;
+}
+
+#scroll:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes background-color {
+  100% {
+    background-color: rgb(40, 190, 47);
+  }
+}
