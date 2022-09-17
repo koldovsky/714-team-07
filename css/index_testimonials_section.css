@@ -86,6 +86,11 @@ flex-wrap: wrap;
 }
 .testimonials-main-header__paragraph {
     font-family: var(--footer-title);
+    vertical-align: baseline;
     font-size: 20px;
     margin-top: 20px;
+}
+
+.testimonials__roller {
+    margin-top: 45px;
 }
