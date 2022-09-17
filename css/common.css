@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -24,18 +24,17 @@
   --form-framing-background-color: rgba(255, 255, 255, 0.24);
   --form-button-background-color: rgb(146, 206, 43);
 
-    /* General styles */
-    font-family: var(--main-font);
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--main-color-text);
+  /* General styles */
+  font-family: var(--main-font);
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--main-color-text);
 
-    /*Footer styles 400*/
-    font-family: var(--footer-title);
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--main-color-title);
-}
+  /*Footer styles 400*/
+  font-family: var(--footer-title);
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--main-color-title);
   /* General styles */
   font-family: var(--main-font);
   font-size: 17px;
