@@ -25,7 +25,8 @@
 
 .froots_info {
     display: flex;
-    padding: 0 32px;
+    padding: 85px 32px 95px;
+    background-color: #f5f4f3;
 }
 
 .froots_info__text h2 {
