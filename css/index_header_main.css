@@ -1,5 +1,5 @@
 .header__main {
-    background-image: url(/img/background-img.webp);
+    background-image: url(../img/background-img.webp);
     background-size: cover;
     background-position: center;
     width: 100%;
