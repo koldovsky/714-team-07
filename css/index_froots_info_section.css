@@ -16,9 +16,10 @@
 }
 .froots_info {
     display: flex;
+    padding: 0 32px;
 }
-.froots_info__text{
-   
+.froots_info__text h2 {
+    text-align: left;
 }
 .plate{
     background: #44b749;
