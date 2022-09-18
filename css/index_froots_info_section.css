@@ -13,3 +13,20 @@
 .menu__picture{
     height:60px;
 }
+.text__h2{
+    color: #3a3c43;
+}
+.froots_info__picture{
+    font-size: 17px;
+}
+.froots_info__text{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.plate{
+    background: #44b749;
+}
