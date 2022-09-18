@@ -44,6 +44,8 @@
     opacity: .2;
     left: 0;
     bottom: 0;
+    transform: translateX(0) translateY(-6px);
+    right: auto;
 }
 
 .plate {
