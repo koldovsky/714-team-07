@@ -33,6 +33,7 @@
     font-size: 50px;
     line-height: 1.2;
     padding-bottom: 30px;
+    position: relative;
 }
 
 .froots_info__text h2::after {
