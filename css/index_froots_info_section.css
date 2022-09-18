@@ -36,7 +36,9 @@
     padding-bottom: 30px;
     position: relative;
 }
-
+.froots_info__text p{
+    font-family: var(--main-font);
+}
 .froots_info__text h2::after {
     content: "";
     position: absolute;
