@@ -1,23 +1,18 @@
 .paragraph__green_text {
     color: #44b749!important;
 }
-.plate__text{
-    height:60px;
-}
-.reload__picture{
-    height:60px;
-}
-.teapicture{
-    height:60px;
-}
-.menu__picture{
+.plate__text, 
+.reload__picture, 
+.tea__picture, 
+.menu__picture {
     height:60px;
 }
 .text__h2{
     color: #3a3c43;
 }
-.froots_info__picture{
-    font-size: 17px;
+.picture__img{
+    height: 434.58px;
+    width: 428.5px;
 }
 .froots_info__text{
     margin: 0;
@@ -28,5 +23,14 @@
     vertical-align: baseline;
 }
 .plate{
+    background: #44b749;
+}
+.reload{
+    background: #44b749;
+}
+.tea{
+    background: #44b749;
+}
+.menu{
     background: #44b749;
 }
