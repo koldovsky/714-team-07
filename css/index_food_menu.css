@@ -1,3 +1,6 @@
+    /* food menu */
+    
+    
     .background {
         background-image: url(../img/mybackground.webp);
     }
@@ -12,14 +15,14 @@
     .swipes_of_food {
         color: black;
         font-size: 32px;
-        font-family: Raleway;
-        text-align: center;
+        font-family: var(--title-font);
+        text-align: justify;
     }
 
     .bottom_of_menu {
         color: black;
         font-size: 64px;
-        font-family: Ubuntu;
+        font-family: var(--title-font);
         text-align: center;
     }
 
