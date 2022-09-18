@@ -14,13 +14,11 @@
     height: 434.58px;
     width: 428.5px;
 }
+.froots_info {
+    display: flex;
+}
 .froots_info__text{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+   
 }
 .plate{
     background: #44b749;
