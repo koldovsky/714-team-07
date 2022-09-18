@@ -7,7 +7,6 @@
 .tea__picture,
 .menu__picture {
     height: 60px;
-    width: 60px;
 }
 
 .text__h2 {
@@ -59,7 +58,9 @@
 .menu svg{
     background: #44b749;
     padding: 20px;
-    color: white
+    color: white;
+    box-shadow: 0 0 0 100px #44b749;
+
 }
 
 .icons{
