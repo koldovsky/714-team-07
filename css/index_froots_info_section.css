@@ -52,10 +52,10 @@
     right: auto;
 }
 
-.plate, 
-.reload, 
-.tea,
-.menu {
+.plate svg, 
+.reload svg, 
+.tea svg,
+.menu svg{
     background: #44b749;
     width: 100px;
     height: 100px;
