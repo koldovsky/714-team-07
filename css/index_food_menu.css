@@ -15,8 +15,8 @@
     .swipes_of_food {
         color: black;
         font-size: 32px;
-        font-family: var(--title-font);
-        text-align: justify;
+        font-family: var(--main-font);
+        text-align: center;
     }
 
     .bottom_of_menu {
