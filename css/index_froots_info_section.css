@@ -1,40 +1,63 @@
 .paragraph__green_text {
-    color: #44b749!important;
+    color: #44b749 !important;
 }
-.plate__text, 
-.reload__picture, 
-.tea__picture, 
+
+.plate__text,
+.reload__picture,
+.tea__picture,
 .menu__picture {
-    height:60px;
+    height: 60px;
 }
-.text__h2{
+
+.text__h2 {
     color: #3a3c43;
 }
-.picture__img{
+
+.picture__img {
     height: 434.58px;
     width: 428.5px;
 }
-.froots_info > div {
+
+.froots_info>div {
     padding: 0 15px;
 
 }
+
 .froots_info {
     display: flex;
-    padding: 0 32px;}
+    padding: 0 32px;
+}
+
 .froots_info__text h2 {
     text-align: left;
     font-size: 50px;
     line-height: 1.2;
+    padding-bottom: 30px;
 }
-.plate{
+
+.froots_info__text h2::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #3a3c43;
+    opacity: .2;
+    left: 0;
+    bottom: 0;
+}
+
+.plate {
     background: #44b749;
 }
-.reload{
+
+.reload {
     background: #44b749;
 }
-.tea{
+
+.tea {
     background: #44b749;
 }
-.menu{
+
+.menu {
     background: #44b749;
 }
