@@ -57,8 +57,8 @@
 .tea svg,
 .menu svg{
     background: #44b749;
-    width: 100px;
-    height: 100px;
+    padding: 20px;
+    color: white
 }
 
 .icons{
