@@ -1,29 +1,52 @@
-.header {
+#header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 15px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  position: relative;
 }
 
-.header ul {
-  font-family: var(--main-font);
-  font-size: 16px;
-  color: var(--main-color-text);
+.nav__page-logo {
+  display: flex;
+  text-align: start;
+  padding-right: 20px;
+}
+
+#header ul {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: rgb(58, 60, 67);
   display: flex;
 }
 
-.header li {
-  margin-left: 15px;
-  padding-left: 15px;
+.nav__menu-list {
+  list-style: "|";
+  font-size: inherit;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
+#header li {
+  margin-left: 15px;
+  padding-left: 15px;
+  opacity: 0.7;
+}
 
-.header a {
+#first-list-item {
+  list-style: none;
+}
+
+#header a {
   background-image: linear-gradient(
     to right,
-    var(--form-button-background-color),
-    var(--form-button-background-color) 50%,
-    rgb(0, 0, 0) 50%
+    rgb(146, 206, 43),
+    rgb(146, 206, 43) 50%,
+    #000 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -35,7 +58,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.header a:before {
+#header a:before {
   content: "";
   background: rgb(110, 172, 2);
   display: block;
@@ -47,74 +70,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.header a:hover {
+#header a:hover {
   background-position: 0;
 }
 
-.header a:hover::before {
+#header a:hover::before {
   width: 100%;
-}
-
-.nav__page-logo {
-  padding: 10px;
-}
-
-
-.nav__menu-list {
-  list-style: "|";
-  margin: 0;
-  padding: 0;
-}
-
-#first-list-item {
-  list-style: none;
-}
-
-.header__main {
-  background-image: url(../img/background-img.webp);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.header__main-content {
-  font-family: var(--title-font);
-  font-weight: 700;
-  font-size: 80px;
-  width: 800px;
-  margin: 0 150px;
-  padding: 220px 15px;
-  text-align: left;
-}
-
-.header-title {
-  margin: 0;
-}
-
-.header__button {
-  margin: auto;
-}
-
-#scroll {
-  text-decoration: none;
-  color: white;
-  background-color: var(--form-button-background-color);
-  border-width: 2px;
-  border-radius: 32px;
-  font-size: 18px;
-  padding: 18px 35px;
-}
-
-#scroll:hover {
-  animation-name: background-color;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-}
-@keyframes background-color {
-  100% {
-    background-color: rgb(40, 190, 47);
-  }
 }

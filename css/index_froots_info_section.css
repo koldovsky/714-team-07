@@ -1,15 +1,36 @@
 .paragraph__green_text {
     color: #44b749!important;
 }
-.plate__text{
+.plate__text, 
+.reload__picture, 
+.tea__picture, 
+.menu__picture {
     height:60px;
 }
-.reload__picture{
-    height:60px;
+.text__h2{
+    color: #3a3c43;
 }
-.teapicture{
-    height:60px;
+.picture__img{
+    height: 434.58px;
+    width: 428.5px;
 }
-.menu__picture{
-    height:60px;
+.froots_info__text{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.plate{
+    background: #44b749;
+}
+.reload{
+    background: #44b749;
+}
+.tea{
+    background: #44b749;
+}
+.menu{
+    background: #44b749;
 }

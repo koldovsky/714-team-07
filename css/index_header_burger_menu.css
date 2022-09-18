@@ -14,10 +14,12 @@
 
   .nav__menu {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
   }
 }
 
 #burger-menu__icon {
   width: 40px;
+  padding: 12px 8px;
 }
