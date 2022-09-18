@@ -1,0 +1,47 @@
+.map {
+    position: relative;
+    min-width: 320px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .parent_map {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-width: 320px;
+  }
+  
+  .map_style {
+    color: #3a3c43;
+    min-width: 320px;
+    font-size: 60px;
+    font-family: Signika, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .line-our-coverage {
+    color: #3a3c43;
+    opacity: 0.4;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    margin: auto;
+  }
+  
+  .current_location {
+    width: 1050px;
+    height: 550px;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  .map_item {
+    display: block;
+  }

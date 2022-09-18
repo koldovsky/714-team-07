@@ -1,6 +1,6 @@
 .image-fon {
   background-image: url(../img/question_form_image.jfif);
-  height: 900px;
+  height: auto;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -15,7 +15,7 @@
   word-wrap: break-word;
   z-index: 1;
   justify-content: center;
-  box-shadow: 0 0 0 450px rgba(0, 0, 0, 0.33) inset;
+  box-shadow: 0 0 0 50000px rgba(0, 0, 0, 0.33) inset;
 }
 
 #question_form {
@@ -48,6 +48,7 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+
 #question_form-p {
   font-size: 21px;
   font-family: Lato, sans-serif;
@@ -68,7 +69,7 @@
   border-radius: 27px;
   align-items: center;
   width: 446px;
-  height: 48px;
+  height: 52px;
   margin: 12px;
   border-color: transparent;
   border-style: solid;
@@ -80,13 +81,14 @@
   min-width: 320px;
   padding-left: 20px;
 }
+
 #form-button-content {
   background-color: #92ce2b;
   border-width: 2px;
   border-radius: 27px;
   align-items: center;
   width: 446px;
-  height: 48px;
+  height: 52px;
   margin: 40px;
   border-color: transparent;
   border-style: solid;
@@ -99,12 +101,14 @@
   transition: 0.3s linear;
   min-width: 320px;
 }
+
 #input-item:focus,
 #input-item:active {
   outline: none;
   border-color: rgb(40, 151, 224);
   border-width: 3px;
 }
+
 #form-button-content:hover {
   background-color: #44b749;
 }
