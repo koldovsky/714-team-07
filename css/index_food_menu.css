@@ -18,6 +18,7 @@
         font-size: 16px;
         font-weight: 100;
         text-align: center;
+        margin: auto;
     }
 
     .bottom_of_menu {
@@ -33,14 +34,11 @@
         padding: 15px;
     }
   
-    .fullCard {
+    .my_card {
         width: 245px;
         border: 1px solid #ccc;
         border-radius: 5px;
-        margin: 10px 5px;
+        margin: auto;
         padding: 4px;
 
     }
-   /* .headers {
-        font-size: 32px;
-    } */
