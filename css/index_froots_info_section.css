@@ -33,23 +33,9 @@
     text-align: left;
     font-size: 50px;
     line-height: 1.2;
-    padding-bottom: 30px;
-    position: relative;
 }
 .froots_info__text p{
     font-family: var(--main-font);
-}
-.froots_info__text h2::after {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 1px;
-    background-color: #3a3c43;
-    opacity: .2;
-    left: 0;
-    bottom: 0;
-    transform: translateX(0) translateY(-6px);
-    right: auto;
 }
 
 .plate svg, 
@@ -65,8 +51,38 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    margin: 0 auto;
 }
 .icons{
-    padding: 95px 0 100px;
+    padding: 95px 32px 100px;
     text-align: center;
+}
+.icons>div{
+    display:inline-block;
+    width: 49%;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.pain_graystripe::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #3a3c43;
+    opacity: .2;
+    left: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(-6px);
+    right: auto;
+}
+.pain_graystripe{
+    position: relative;
+    padding-bottom: 30px;
+
+}
+.icons h2::after{
+    left:calc(50% - 30px);
+}
+.icons h3{
+    margin: 20px;
 }
