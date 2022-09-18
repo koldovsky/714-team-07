@@ -52,21 +52,13 @@
     right: auto;
 }
 
-.plate {
-    background: #44b749;
-}
-
-.reload {
-    background: #44b749;
-}
-
-.tea {
-    background: #44b749;
-}
-
+.plate, 
+.reload, 
+.tea,
 .menu {
     background: #44b749;
 }
+
 .icons{
     padding: 95px 0 100px;
 }
