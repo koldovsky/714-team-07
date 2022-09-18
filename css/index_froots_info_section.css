@@ -56,13 +56,14 @@
 .reload svg, 
 .tea svg,
 .menu svg{
-    background: #44b749;
-    padding: 20px;
     color: white;
-    box-shadow: 0 0 0 100px #44b749;
-
 }
 
+.green_circle{
+    background: #44b749;
+    padding: 20px;
+    border-radius: 50%;
+}
 .icons{
     padding: 95px 0 100px;
 }
