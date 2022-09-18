@@ -57,6 +57,8 @@
 .tea,
 .menu {
     background: #44b749;
+    width: 100px;
+    height: 100px;
 }
 
 .icons{
