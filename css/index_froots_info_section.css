@@ -14,10 +14,13 @@
     height: 434.58px;
     width: 428.5px;
 }
+.froots_info > div {
+    padding: 0 15px;
+
+}
 .froots_info {
     display: flex;
-    padding: 0 32px;
-}
+    padding: 0 32px;}
 .froots_info__text h2 {
     text-align: left;
 }
