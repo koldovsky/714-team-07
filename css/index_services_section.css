@@ -20,7 +20,7 @@
      text-align: left;
      word-wrap: break-word;
 }
-
+/*
 h2 {
     font-family: var(--title-font);
     color: var(--main-color-text);
@@ -28,7 +28,7 @@ h2 {
     font-size: 40px;
     font-weight: 700;
 }
-
+*/
 h3 {
     font-family: var(--title-font);
     color: var(--accent-color-text);

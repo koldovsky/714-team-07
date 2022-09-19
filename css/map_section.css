@@ -1,0 +1,63 @@
+.map {
+  position: relative;
+  min-width: 320px;
+  padding: 50px 24px 70px 24px;
+}
+
+.map_style {
+  font-size: 40px;
+  text-align: center;
+  font-family: Signika, sans-serif;
+  font-weight: 700;
+  color: #3a3c43;
+  padding-bottom: 15px;
+}
+
+.parent_map {
+  display: block;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.line-our-coverage {
+  color: #3a3c43;
+  opacity: 0.4;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  margin: auto;
+}
+
+.current_location {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  padding-top: 60px;
+  padding-bottom: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+@media (min-width: 845px) {
+  .map_style {
+    font-size: 50px;
+  }
+  .current_location {
+    height: 550px;
+  }
+}
+
+@media (min-width: 992px) {
+  .map_style {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1170px) {
+  .map {
+    width: 1171px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

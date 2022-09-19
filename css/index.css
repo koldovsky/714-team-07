@@ -1,14 +1,16 @@
 @import url(common.css);
 @import url(index_header_section.css);
 @import url(index_header_burger_menu.css);
+@import url(index_header_main.css);
 @import url(organic.css);
+@import url(index_food_menu.css);
 @import url(index_subscribe_section.css);
 @import url(index_testimonials_section.css);
 @import url(index_faq_section.css);
 @import url(index_services_section.css);
 @import url(index_froots_info_section.css);
-@import url(index_map_section.css);
-@import url(index_question_form_section.css);
-@import url(index_footer.css);
+@import url(map_section.css);
+@import url(question_form_section.css);
+@import url(footer.css);
 @import url(index_food_info_section.css);
-@import url(indexfood_menu.css);
+
