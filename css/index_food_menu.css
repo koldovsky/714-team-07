@@ -23,24 +23,21 @@
     .bottom_of_menu {
         color: black;
         font-family: var(--title-font);
-        text-align: center;
-    }
+       }
 
     .smallerImage {
-        width: 300px;  
-     
-        padding: 15px;  
+        width: 300px;     
+        padding: 15px;    
     }
   
     .fullCard {
-        width: 500px;
+        width: 00500px;
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px 5px;
         padding: 4px;
-     
+          
     }
    
     .headers {
         font-weight: 600;
-    } 

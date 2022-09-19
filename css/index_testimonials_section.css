@@ -101,6 +101,12 @@
     cursor: pointer;
     text-decoration: none;
 }
+.testimonials__link:hover {
+    color: white;
+}
+.testimonials-footer__button:hover {
+background-color: var(--form-button-background-color);
+}
 
 #testimonials__roller {
     margin: auto;
@@ -115,8 +121,10 @@
 .testim_next {
     width: 24px;
     height: 24px;
+    opacity: 0.8;
     border-radius: 50%;
     background: #3a3c43;
+    border: none;
 }
 
 .testim_b {
@@ -129,6 +137,8 @@
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    border: none;
+    opacity: 0.8;
     background: #3a3c43;
     transform: scaleX(-1);
 }
