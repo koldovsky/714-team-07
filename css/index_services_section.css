@@ -11,6 +11,22 @@
     background: url("../img/services_section/services_bg.webp");
 }
 
+.services_content {
+    background-position: repeat center center;
+    background-size: contain;
+    background-origin: border-box;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+}
+
+.services_content_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .services_content_head {
     padding-top: 0px;
     padding-right: 0px;
@@ -20,6 +36,38 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+
+
+.content {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.cards {
+    font-family: var(--main-font);
+    color: var(--main-color-text);
+    font-size: var(--text-size);
+    font-weight: var(--text-weight);
+    background-color: white;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    box-sizing: padding-box;
+}
+
+article {
+    box-sizing: border-box;
+    max-width: 650px;
+    display: grid;
 }
 
 /*Styles for headlines in servises-section*/
@@ -45,55 +93,6 @@
     opacity: .2;
     display: flex;
     flex-direction: column;
-}
-
-.content {
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-.cards {
-    font-family: var(--main-font);
-    color: var(--main-color-text);
-    font-size: var(--text-size);
-    font-weight: var(--text-weight);
-    background-color: white;
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
-}
-
-
-
-
-
-.services_content {
-    
-    background-position: repeat center center;
-    background-size: contain;
-    background-origin: padding-box;
-    padding-top: 0px;
-    padding-right: 24px;
-    padding-bottom: 0px;
-    padding-left: 24px;
-}
-
-.healthy_box hot_cold free_office {
-    padding-top: 0px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
 }
 
 /*Section 'pictures'*/
