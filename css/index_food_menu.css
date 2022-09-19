@@ -26,10 +26,11 @@
         text-align: center;
     }
 
-    .smaller_img {
-        width: 200px;    
+    .smallerImage {
+        width: 300px;  
+        height: auto;  
         text-align: center;  
-        padding: 15px;
+        padding: 15px;  
     }
   
     .fullCard {

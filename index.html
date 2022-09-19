@@ -13,14 +13,21 @@
 </head>
 
 <body>
-  <header class="header">
-    <!--Olena Tofan-->
+  <!--Olena Tofan-->
+  <header id="header">
     <div class="nav__page-logo">
-      <a id="header-logo" href="index.html">
-        <img width="255" src="img/healthy-eating-logo.png" alt="HealthyEating logo" />
+      <a href="index.html">
+        <img
+          width="300"
+          src="img/healthy-eating-logo.png"
+          alt="HealthyEating logo"
+        />
       </a>
     </div>
-    <label class="burger-icon"><img id="burger-menu__icon" src="img/burger-menu-icon.png" alt="burger-icon"></label>
+    <div id="flex-conteiner"></div>
+    <label class="burger-icon"
+      ><img id="burger-menu__icon" src="img/burger-menu-icon.png" alt=""
+    /></label>
     <nav class="nav__menu">
       <ul class="nav__menu-list">
         <li class="menu-list-item" id="first-list-item">
@@ -30,7 +37,7 @@
           <a href="#specialities" class="menu__item">Specialities </a>
         </li>
         <li class="menu-list-item">
-          <a href="#WeeklyMenu" class="menu__item">Weekly menu</a>
+          <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
         </li>
         <li class="menu-list-item">
           <a href="#delivery" class="menu__item">Delivery coverage</a>
@@ -44,9 +51,15 @@
   <main>
     <div class="header__main">
       <div class="header__main-content">
-        <p class="header-title">Wholesome foods</p>
-        <p class="header-title">that make you enjoy life more</p>
-        <p class="header__button"><a id="scroll" href="#">Try It Out!</a></p>
+        <div class="header__flex-container">
+          <div class="header-main__title">
+            <p class="header-title">Wholesome foods</p>
+            <p class="header-title">that make you enjoy life more</p>
+          </div>
+          <p class="header__button">
+            <a id="scroll" href="#">Try It Out!</a>
+          </p>
+        </div>
       </div>
     </div>
     <!--Olena Tofan END-->
@@ -280,7 +293,7 @@
         <h4>Chicken shawarma & taboulleh</h4>
         
           <div>
-          <img width = 200px src="img/chicken_shawarma.jpg" alt="chicken_shawarma" />
+          <img class="smallerImage" src="img/chicken_shawarma.jpg" alt="chicken_shawarma" />
           </div>
         <p>
           Cardamon and sumac give the chicken its deep Middle Eastern flavors. It
@@ -296,7 +309,7 @@
         <h4>Fritters with seaweed salat & nutty freekah</h4>
         
           <div>
-          <img width = 200px src="img/Fritters.jpg" alt="Fritters" />
+          <img class="smallerImage" src="img/Fritters.jpg" alt="Fritters" />
           </div>
         <p>
           These fritters are a delicious mix of smoky corn, green beans and tofu.
@@ -313,7 +326,7 @@
         <h4>Sesame salmon with a noodle salat</h4>
         
           <div>
-          <img width = 200px src="img/Salmon.jpeg" alt="Salmon" />
+          <img class="smallerImage" src="img/Salmon.jpeg" alt="Salmon" />
           </div>
         <p>
           Your salmon fillet is baked with toasted sesame seeds and served next to
@@ -331,7 +344,7 @@
         <h4>Vietnamiese chicken vermicelli with a salat</h4>
       
           <div>
-          <img width = 200px src="img/Vietnamese_chicken.jpg" alt="Vietnamese_chicken" />
+          <img class="smallerImage" src="img/Vietnamese_chicken.jpg" alt="Vietnamese_chicken" />
           </div>
         <p>
           Vietnamese-roasted chicken breast with brown rice vermicelli and soy
@@ -347,7 +360,7 @@
         <h4>Falafell with slaw, hummus & salsa</h4>
         
           <div>
-          <img width = 200px src="img/Roasted_sweet_potato.jpg" alt="Roasted_sweet_potato" />
+          <img class="smallerImage" src="img/Roasted_sweet_potato.jpg" alt="Roasted_sweet_potato" />
           </div>
         <p>
           The roasted sweet potato with coriander and chickpea gives the falafel a
@@ -364,7 +377,7 @@
         <h4>Morrokan chicken & citrus bulgur wheat</h4>
 
           <div>
-          <img width = 200px src="img/Morrokan_chicken.jpeg" alt="Morrokan_chicken" />
+          <img class="smallerImage" src="img/Morrokan_chicken.jpeg" alt="Morrokan_chicken" />
           </div>
         <p>
           A Moroccan-spiced chicken breast with rass el hanout and ginger. As well
@@ -818,31 +831,31 @@
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-30" src="img/slider_airtel.png" alt="Airtel" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_airtel.png" alt="Airtel" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_argo.png" alt="Argo" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_argo.png" alt="Argo" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_bobo_coworking.png" alt="Bobo" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_bobo_coworking.png" alt="Bobo" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_bone.png" alt="Bone" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_bone.png" alt="Bone" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_didi_insider.png" alt="DiDi" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_didi_insider.png" alt="DiDi" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_ideas_first.png" alt="Ideas First" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_ideas_first.png" alt="Ideas First" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_just_in_time.png" alt="Just In Time" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_just_in_time.png" alt="Just In Time" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_paragon.png" alt="Paragon" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_paragon.png" alt="Paragon" />
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-72" src="img/slider_southern_company.png" alt="Southern Company" />
+                    <img class="d-block w-100" src="img/subscribe_section/small/slider_southern_company.png" alt="Southern Company" />
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
