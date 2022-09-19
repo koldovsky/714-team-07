@@ -1,40 +1,21 @@
 /*Services section*/
 /*main properties*/
 
-/* ... */
-
-:root {
-    --main-font: "Lato", sans-serif;
-    --title-font: "Signika", sans-serif;
-    --main-color-text: #3a3c43;
-    --accent-color-text: #44b749;
-    --background-color: #efefef;
-    --background-color-light: #ffffff;
-
-    /*general styles*/
-    --text-size: 17px;
-    --text-weight: 400;
-    --font-family: var(--main-font);
-    --color: var(--main-color-text);
-     box-sizing: border-box;
-     text-align: left;
-     word-wrap: break-word;
-}
-/*
-h2 {
+/*Styles for headlines in servises-section*/
+.headline_h2 {
     font-family: var(--title-font);
     color: var(--main-color-text);
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-}
-*/
-h3 {
+  }
+  .headline_h3 {
     font-family: var(--title-font);
     color: var(--accent-color-text);
     font-size: 24px;
     font-weight: 700;
-}
+  }
+  
 
 .decoration {
     color: var(--main-color-text);
