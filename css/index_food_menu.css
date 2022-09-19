@@ -27,8 +27,10 @@
     }
 
     .smallerImage {
-        width: 200px;     
-        padding: 15px;
+        width: 300px;  
+        height: auto;  
+        text-align: center;  
+        padding: 15px;  
     }
   
     .fullCard {
