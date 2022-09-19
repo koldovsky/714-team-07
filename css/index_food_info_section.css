@@ -4,7 +4,7 @@
 }
 
 .text-heading__container {
-    line-height: 1;
+    font-family: var(--title-font);
 }
 
 .family-like__container {
@@ -22,7 +22,7 @@
     padding-top: 30px;
     padding-bottom: 100px;
     font-weight: 400;
-    line-break: normal;
+
 }
 
 @media (max-width: 768px) {
@@ -44,7 +44,7 @@
 
 .text-heading {
     font-size: 29px;
-    font-family: var( --title-font);
+    font-family: var(--title-font);
     color: var(--accent-color-text);
 }
 
