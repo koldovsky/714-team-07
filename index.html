@@ -13,14 +13,21 @@
 </head>
 
 <body>
-  <header class="header">
-    <!--Olena Tofan-->
+  <!--Olena Tofan-->
+  <header id="header">
     <div class="nav__page-logo">
-      <a id="header-logo" href="index.html">
-        <img width="255" src="img/healthy-eating-logo.png" alt="HealthyEating logo" />
+      <a href="index.html">
+        <img
+          width="300"
+          src="img/healthy-eating-logo.png"
+          alt="HealthyEating logo"
+        />
       </a>
     </div>
-    <label class="burger-icon"><img id="burger-menu__icon" src="img/burger-menu-icon.png" alt="burger-icon"></label>
+    <div id="flex-conteiner"></div>
+    <label class="burger-icon"
+      ><img id="burger-menu__icon" src="img/burger-menu-icon.png" alt=""
+    /></label>
     <nav class="nav__menu">
       <ul class="nav__menu-list">
         <li class="menu-list-item" id="first-list-item">
@@ -30,7 +37,7 @@
           <a href="#specialities" class="menu__item">Specialities </a>
         </li>
         <li class="menu-list-item">
-          <a href="#WeeklyMenu" class="menu__item">Weekly menu</a>
+          <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
         </li>
         <li class="menu-list-item">
           <a href="#delivery" class="menu__item">Delivery coverage</a>
@@ -44,9 +51,15 @@
   <main>
     <div class="header__main">
       <div class="header__main-content">
-        <p class="header-title">Wholesome foods</p>
-        <p class="header-title">that make you enjoy life more</p>
-        <p class="header__button"><a id="scroll" href="#">Try It Out!</a></p>
+        <div class="header__flex-container">
+          <div class="header-main__title">
+            <p class="header-title">Wholesome foods</p>
+            <p class="header-title">that make you enjoy life more</p>
+          </div>
+          <p class="header__button">
+            <a id="scroll" href="#">Try It Out!</a>
+          </p>
+        </div>
       </div>
     </div>
     <!--Olena Tofan END-->
