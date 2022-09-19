@@ -1,6 +1,27 @@
 /*Services section*/
 /*main properties*/
 
+.services {
+    background-color: var(--background-color);
+    padding-top: 90px;
+    padding-right: 0px;
+    padding-bottom: 90px;
+    padding-left: 0px;
+    justify-content: center;
+    background: url("../img/services_section/services_bg.webp");
+}
+
+.services_content_head {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    align-self: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 /*Styles for headlines in servises-section*/
 .headline_h2 {
     font-family: var(--title-font);
@@ -22,7 +43,8 @@
     width: 60px;
     height: 1px;
     opacity: .2;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
@@ -48,24 +70,12 @@
     margin-left: 0px;
 }
 
-.services_content_head {
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-}
 
-.services {
-    background-color: var(--background-color);
-    
-    padding-top: 90px;
-    padding-right: 0px;
-    padding-bottom: 90px;
-    padding-left: 0px;
-}
+
+
 
 .services_content {
-    background: url("../img/services_section/services_bg.webp");
+    
     background-position: repeat center center;
     background-size: contain;
     background-origin: padding-box;
