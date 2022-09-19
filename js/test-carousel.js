@@ -38,7 +38,7 @@ function init() {
 window.addEventListener('resize', init);
 init();
 
-document.querySelector('.next').addEventListener('click', function(){
+document.querySelector('.testim_next').addEventListener('click', function(){
 count++;
 if (count >= images.length) {
 count = 0;
@@ -46,7 +46,7 @@ count = 0;
 roll();
 });
 
-document.querySelector('.prev').addEventListener('click', function(){
+document.querySelector('.testim_prev').addEventListener('click', function(){
 count--;
 if (count < 0) {
 count = images.length -1;

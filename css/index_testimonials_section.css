@@ -6,13 +6,15 @@
     background-position-y: bottom;
     text-align: center;
 }
+
 .testimonials__main {
     min-width: 320px;
-    padding: 90px 24px 90px 24px; 
+    padding: 90px 24px 90px 24px;
     word-wrap: break-word;
     display: block;
-    
+
 }
+
 .testimonials-main__section #testimonials__roller {
     display: flex;
     flex-direction: column;
@@ -24,20 +26,23 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .testimonials-main-header__title {
     font-family: var(--title-font);
     font-size: 40px;
     font-weight: 700;
 }
+
 .testimonials-title__line {
-    display:inline-block;
+    display: inline-block;
     padding-left: 80px;
-    margin:auto;
-    border: 0.1px solid #3a3c43; 
+    margin: auto;
+    border: 0.1px solid #3a3c43;
     background-color: #3a3c43;
     opacity: .2;
     right: 50%;
-  }
+}
+
 .testimonials-main-header__paragraph {
     font-family: var(--footer-title);
     vertical-align: baseline;
@@ -59,6 +64,7 @@
     font-weight: 700;
 
 }
+
 .testimonials__color-definition {
     margin-top: 20px;
     font-family: var(--main-font);
@@ -67,21 +73,25 @@
     font-weight: bolder;
     line-height: 1.6;
 }
+
 .testimonials-text__description {
     margin-top: 20px;
-    font-family: var(--main-font) ;
+    font-family: var(--main-font);
     font-size: 17px;
 }
+
 .testimonials__footer {
     margin-top: 50px;
     text-align: center;
 }
+
 .testimonials-footer__button {
     border: 2px solid var(--form-button-background-color);
     border-radius: 27px;
     padding: 15px 30px;
     width: auto;
 }
+
 .testimonials__link {
     font-family: var(--main-font);
     font-size: 18px;
@@ -95,8 +105,52 @@
 #testimonials__roller {
     margin: auto;
     overflow: hidden;
-  }
-  .test-carousel-photos {
+}
+
+.test-carousel-photos {
     display: flex;
     transition: all ease 0.5s;
-  }
+}
+
+.testim_next {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #3a3c43;
+}
+
+.testim_b {
+    position: absolute;
+    width: 36px;
+    height: 48px;
+}
+
+.testim_prev {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #3a3c43;
+    transform: scaleX(-1);
+}
+
+.testim_pic {
+    fill: #fff;
+    position: relative;
+    display: flex;
+}
+.testim_direct {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*.carousel-buton {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    transform: translate(-24px,-50%);
+    width: 36px;
+    height: 48px;
+    position: absolute;
+    border-radius: 50%;
+  }*/
