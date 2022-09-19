@@ -28,18 +28,17 @@
 
     .smallerImage {
         width: 300px;  
-        height: auto;  
-        text-align: center;  
+     
         padding: 15px;  
     }
   
     .fullCard {
-        width: 245px;
+        width: 500px;
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px 5px;
         padding: 4px;
-
+     
     }
    
     .headers {
