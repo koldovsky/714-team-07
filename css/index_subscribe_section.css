@@ -1,8 +1,8 @@
 .main__subscribe {
   /* background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp) center 15.23% / cover no-repeat; */
   background: url('../img/subscribe_section/subscribe_background_image.png');
+  box-shadow: 0 0 0 50000px rgba(0, 0, 0, 0.33) inset;
   background-position: center 50%;
-  background-size: cover;
   box-sizing: border-box;
   font-family: var(--main-font);
   font-size: 17px;
@@ -15,6 +15,7 @@
   overflow-wrap: break-word;
   position: relative;
   vertical-align: baseline;
+  background-attachment: fixed;
 }
 
 .subscribe__inner {
@@ -64,13 +65,7 @@
 
 .subscribe_text__hr,
 .upper_part__hr {
-<<<<<<< HEAD
-  width: 50%;
-  height: 3px;
-  color: white;
-=======
   color: var(--simple-color-text);
->>>>>>> 54cb198c56ef2ff540d46ea3202251b0f7fbb28e
   opacity: 0.2;
   left: 50%;
   width: 60px;
@@ -81,12 +76,7 @@
 .subscribe__form_div {
   margin: auto;
   margin-top: 50px;
-<<<<<<< HEAD
-  width: 634px;
-  background: rgba(58, 60, 67, 0.6);
-=======
   background: var(--form-background-color);
->>>>>>> 54cb198c56ef2ff540d46ea3202251b0f7fbb28e
   font-weight: 400;
   font-size: 17px;
   font-family: var(--main-font);
@@ -216,6 +206,10 @@
   align-items: flex-start;
 }
 
+.form__button:hover {
+  color: black;
+}
+
 .button__subscribe_border {
   position: absolute;
   width: 100%;
@@ -243,6 +237,12 @@
   box-sizing: border-box;
 }
 
+.button__subscribe_border:hover {
+  background-color: var(--simple-color-text);
+  color: black;
+  background-image: linear-gradient(0deg, transparent, transparent);
+}
+
 .button__subscribe_text {
   max-width: 100%;
   word-wrap: break-word;
@@ -261,6 +261,9 @@
   text-indent: 0px;
   text-shadow: none;
   box-sizing: border-box;
+}
+.button__subscribe_text:hover span {
+  color: black;
 }
 
 .join_email_list__p {
@@ -395,4 +398,16 @@
 
 .picture__img_slider {
   width: 312px;
+}
+
+/* .img-carousel_center {
+  display: block;
+  width: 100%;
+  justify-content: center;
+} */
+
+.div-carousel_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
