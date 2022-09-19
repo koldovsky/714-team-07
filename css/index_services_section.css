@@ -25,6 +25,7 @@
 .services_content_cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 .services_content_head {
