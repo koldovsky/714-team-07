@@ -18,16 +18,20 @@
     width: 428.5px;
 }
 
-.froots_info>div {
+.froots_content>div {
     padding: 0 15px;
 
 }
 
 .froots_info {
-    display: flex;
     padding: 85px 32px 95px;
     background-color: #f5f4f3;
+    
+}
+.froots_content{
     max-width: 900px;
+    margin: 0 auto;
+    display: flex;
 }
 
 .froots_info__text h2 {
@@ -61,8 +65,7 @@
     text-align: center;
 }
 .icons>div{
-    display:inline-block;
-    width: 49%;
+    display:block;
     padding: 0 15px;
     margin-top: 30px;
 }
@@ -88,4 +91,14 @@
 }
 .icons h3{
     margin: 20px;
+}
+@media(max-width:767px){
+    .froots_content{flex-direction:column}
+    .icons>div{width: 20%;}
+}
+@media(max-width:992px){
+    .icons>div{
+        display: inline-block;
+        width: 80%;
+    }
 }
