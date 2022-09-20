@@ -41,7 +41,7 @@
     .smallerImage {
         width: 300px;     
         height: auto;
-        padding: 15px;  
+        padding: 10% 0;  
         text-align: center;  
     }
   
@@ -49,8 +49,8 @@
         width: 00500px;
         border: 1px solid #ccc;
         border-radius: 5px;
-        margin: 10px 5px;
-        padding: 4px;
+       /* margin: 10px 5px; */
+        padding: 10% 0;
           
     }
    
