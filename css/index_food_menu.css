@@ -22,6 +22,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .bottom_of_menu {
