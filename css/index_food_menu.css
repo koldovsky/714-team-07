@@ -30,6 +30,7 @@
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+       /* overflow: hidden; */
     }
 
     .bottom_of_menu {
@@ -41,13 +42,14 @@
 
     .smallerImage {
         width: 300px;     
-       
-        text-align: center; 
+        object-fit: cover;
+
       
     }
 
     .fullCard {
         width: 500px;
+        height: 500px;
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px 5px;
