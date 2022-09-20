@@ -29,7 +29,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        flex-wrap: wrap;
+       /* flex-wrap: wrap; */
     }
 
     .bottom_of_menu {
@@ -58,7 +58,7 @@
         width: 00500px;
         border: 1px solid #ccc;
         border-radius: 5px;
-       /* margin: 10px 5px; */
+        margin: 10px 5px;
         padding: 10% 0;
           
     }
