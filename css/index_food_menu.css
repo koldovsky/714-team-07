@@ -39,23 +39,22 @@
         font-family: var(--title-font);
         text-align: center;
         padding: 10px;
-       }
+    }
 
     .smallerImage {
         width: 300px;     
         height: 250px;
         object-fit: cover;
-
-      
+        display: flex;
+        justify-content: center;
     }
 
     .fullCard {
         width: 500px;
-       /* height: 400px; */
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px 5px;
-          
+        
     }
    
     .headers {
