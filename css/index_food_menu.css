@@ -12,6 +12,12 @@
         text-align: center;
     }
 
+    .food_names {
+        text-align: center;
+        margin: 10px;
+    }
+
+
     .swipes_of_food {
         color: black;
         font-family: var(--main-font);
