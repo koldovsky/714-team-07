@@ -17,12 +17,16 @@
         font-family: var(--main-font);
         font-size: 16px;
         font-weight: 200;
-        text-align: center;
+        text-align: justify;
+        display: flex;
+        flex-direction: row;
+        
     }
 
     .bottom_of_menu {
         color: black;
         font-family: var(--title-font);
+        text-align: center;
        }
 
     .smallerImage {
