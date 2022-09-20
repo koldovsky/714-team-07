@@ -10,9 +10,12 @@
         font-size: 48px;
         font-family: var(--title-font);
         text-align: center;
+        margin: 10px;
     }
 
     .food_names {
+        display: flex;
+        white-space: nowrap;
         text-align: center;
         margin: 10px;
     }
@@ -24,11 +27,13 @@
         font-size: 16px;
         font-weight: 200;
         text-align: justify;
+
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+    
     }
 
     .bottom_of_menu {
@@ -36,24 +41,28 @@
         font-family: var(--title-font);
         text-align: center;
         padding: 10px;
-       }
+    }
 
     .smallerImage {
         width: 300px;     
-        height: auto;
-        padding: 15px;  
-        text-align: center;  
+        height: 250px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
-  
+
     .fullCard {
-        width: 00500px;
+        width: 500px;
+        height: 470px;
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px 5px;
-        padding: 4px;
-          
+        text-align: center;
     }
    
+    
+
     .headers {
         font-weight: 600;
     }
