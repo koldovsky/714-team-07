@@ -25,12 +25,13 @@
         font-size: 16px;
         font-weight: 200;
         text-align: justify;
+
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-       /* overflow: hidden; */
+    
     }
 
     .bottom_of_menu {
@@ -42,6 +43,7 @@
 
     .smallerImage {
         width: 300px;     
+        height: 250px;
         object-fit: cover;
 
       
