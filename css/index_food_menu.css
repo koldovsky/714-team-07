@@ -20,7 +20,8 @@
         text-align: justify;
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-around;
+        align-items: center;
     }
 
     .bottom_of_menu {
