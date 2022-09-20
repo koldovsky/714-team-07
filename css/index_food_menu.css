@@ -10,6 +10,7 @@
         font-size: 48px;
         font-family: var(--title-font);
         text-align: center;
+        margin: 10px;
     }
 
     .food_names {
