@@ -1,11 +1,26 @@
 /* ---------------- COMMON ---------------- */
 
-.me h2 {
+.graystripe {
+    position: relative;
+    padding-bottom: 30px;
     color: #3a3c43;
     font-size: 60px;
     line-height: 1.2;
     font-family: var(--title-font);
     font-weight: 700;
+}
+
+.graystripe::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #3a3c43;
+    opacity: .2;
+    left: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(-6px);
+    right: auto;
 }
 
 /* ---------------- FRUTS ---------------- */
@@ -18,7 +33,7 @@
 .reload__picture,
 .tea__picture,
 .menu__picture {
-    height: 60px;
+    height: 40px;
 }
 
 .froots_info__picture {
@@ -29,16 +44,19 @@
     width: 100%;
 }
 
-.froots_content>div {
+.froots_content > div {
     padding: 0 15px;
-
 }
 
 .froots_info {
-    padding: 85px 32px 95px;
-    background-color: #f5f4f3;
-    
+    background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d004baf69171b00245a50b4_optimized_3840.webp) 50% 50% / cover no-repeat;
 }
+
+.froots-overlay {
+    padding: 85px 32px 95px;
+    background: rgba(247, 247, 244, 0.56);
+}
+
 .froots_content {
     max-width: 1200px;
     margin: 0 auto;
@@ -49,54 +67,38 @@
     text-align: left;
 }
 
-.froots_info__text p{
+.froots_info__text p {
     font-family: var(--main-font);
 }
 
-
-.plate svg, 
-.reload svg, 
-.tea svg,
-.menu svg{
-    color: white;
+.text__paragraph {
+    margin-top: 30px;
 }
 
-.green_circle{
+.green_circle {
     background: #44b749;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     margin: 0 auto;
 }
 
 /* ---------------- ICONS ---------------- */
 
-.icons{
+.icons {
     padding: 95px 32px 100px;
     text-align: center;
 }
-.icons>div{
+
+.icons > div {
     display:block;
     padding: 0 15px;
     margin-top: 30px;
 }
-.pain_graystripe::after {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 1px;
-    background-color: #3a3c43;
-    opacity: .2;
-    left: 0;
-    bottom: 0;
-    transform: translateX(0) translateY(-6px);
-    right: auto;
-}
-.pain_graystripe{
-    position: relative;
-    padding-bottom: 30px;
 
+.icons svg {
+    color: white;
 }
 
 .icons h2 {
@@ -109,9 +111,10 @@
     white-space: nowrap;
 }
 
-.icons h2::after{
-    left:calc(50% - 30px);
+.icons h2::after {
+    left: calc(50% - 30px);
 }
+
 .icons h3 {
     margin: 20px;
 }
@@ -119,7 +122,7 @@
 /* ---------------- MEDIA ---------------- */
 
 @media (max-width: 767px) {
-    .froots_content{flex-direction:column}
+    .froots_content { flex-direction: column; }
 }
 
 @media (min-width: 768px) {
@@ -127,14 +130,36 @@
         display: inline-block;
         width: 48%;
     }
-    .text__h3 span {
+    .tea .text__h3 span,
+    .menu .text__h3 span {
         display: block;
+    }
+    .plate__text,
+    .reload__picture,
+    .tea__picture,
+    .menu__picture {
+        height: 60px;
+    }
+    .green_circle {
+        padding: 20px;
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media (min-width: 992px) {
+    .icons {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .icons > div {
         width: 24%;
+        max-width: 300px;
+        padding: 0;
+    }
+    .plate .text__h3 span,
+    .reload .text__h3 span {
+        display: block;
     }
     .text__h3 {
         white-space: normal;
