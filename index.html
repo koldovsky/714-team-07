@@ -854,18 +854,37 @@
     <!--  Yaroslav Yenkala END -->
     <!--Oleg Yarema-->
     <section class="map">
-      <h2 class="map_style">Our Coverage</h2>
+      <h2 class="map-text-style">Our Coverages</h2>
       <!-- ::after -->
       <hr class="line-our-coverage">
-
-      <div class="parent_map">
-        <div class="current_location">
+      <div class="current-maps">
+        <div class="current-location">
           <iframe class="map_item"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84251.02644562037!2d-0.11652832268367985!3d51.475148652713415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b32eadf2cc3%3A0xd04ae71ecfd6f20!2zMi00IEJ1Y2tuYWxsIFN0LCBMb25kb24gV0MxQSAxREcsINCS0LXQu9C40LrQvtCx0YDQuNGC0LDQvdC40Y8!5e0!3m2!1sru!2sua!4v1662652441815!5m2!1sru!2sua"
             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
+        <div class="current-location">
+          <iframe class="map_item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.0218451734754!2d-1.2588515764352246!3d51.750924104118155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a5a702af9b%3A0x71701c89d94867ab!2sThe%20Handle%20Bar!5e0!3m2!1sru!2sua!4v1664293139914!5m2!1sru!2sua"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="current-location">
+          <iframe class="map_item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.8068049762184!2d-1.1094842263611129!3d50.79162145176086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48745d876c0a99bb%3A0x37c0774f2a7549ff!2sThe%20Still%20%26%20West%2C%20Old%20Portsmouth!5e0!3m2!1sru!2sua!4v1664293414702!5m2!1sru!2sua"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a class="prev-button-map" onclick="minusSlide()">&#10094;</a>
+        <a class="next-button-map" onclick="plusSlide()">&#10095;</a>
+      </div>
+      <div class="map-carousel-clicks">
+        <span class="map-clicks-item" onclick="currentxSlide(1)"></span>
+        <span class="map-clicks-item" onclick="currentxSlide(2)"></span>
+        <span class="map-clicks-item" onclick="currentxSlide(3)"></span>
       </div>
     </section>
     <section class="image-fon">
@@ -901,6 +920,10 @@
         <a href="#Header"><img class="footer-foto" src="img/healthy-eating-logo.png" alt="" /></a>
         <p>Creating a healthy eating culture in the workplace</p>
       </div>
+      <!--invisible section-->
+      <div>
+      </div>
+      <!--invisible section-->
       <div class="footer-how">
         <ul class="footer-how-list">
           <li>
@@ -1007,6 +1030,7 @@
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
   <script src="js/test-carousel.js"></script>
+  <script src="js/map-carousel.js"></script>
 </body>
 
 </html>
