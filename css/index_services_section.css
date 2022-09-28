@@ -51,8 +51,7 @@
     font-weight: var(--text-weight);
     background-color: white;
     padding: 15px;
-    margin: 10px 0px 5px 0px;
-    box-sizing: padding-box;
+    margin: 30px 15px 0px 15px;
 }
 
 article {
