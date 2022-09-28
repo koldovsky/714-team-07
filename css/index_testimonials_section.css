@@ -147,6 +147,8 @@ background-color: var(--form-button-background-color);
     fill: #fff;
     position: relative;
     display: flex;
+    width: 15px;
+    margin: auto;
 }
 .testim_direct {
     display: flex;
