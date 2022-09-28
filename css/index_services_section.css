@@ -25,7 +25,7 @@
 .services_content_cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 40px;
 }
 
 .services_content_head {
@@ -37,13 +37,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .content {
     margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
 }
 
 .cards {
@@ -52,20 +50,16 @@
     font-size: var(--text-size);
     font-weight: var(--text-weight);
     background-color: white;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    padding: 15px;
+    margin: 10px 0px 5px 0px;
     box-sizing: padding-box;
 }
 
 article {
     box-sizing: border-box;
-    max-width: 650px;
+    width: calc(100%+30px);
+    margin-left: -15px;
+    margin-right: -15px;
     display: grid;
 }
 
@@ -88,7 +82,6 @@ article {
     transform: translateX(0) translateY(-6px);
     right: auto;
     left: calc(50% - 30px);
-    
 }
 
 .head_h3 {
