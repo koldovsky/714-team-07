@@ -3,25 +3,25 @@
     const cards = [
         {
             id: 1,
-            img: "../img/organic_block/icon-delivery.svg",
+            img: "img/organic_block/icon-delivery.svg",
             title: "Free Delivery",
             description: "Free delivery for all orders from $49."
         },
         {
             id: 2,
-            img: "../img/organic_block/icon-support.svg",
+            img: "img/organic_block/icon-support.svg",
             title: "Support",
             description: "Want to change your order? Just contact us."
         },
         {
             id: 3,
-            img: "../img/organic_block/icon-easy.svg",
+            img: "img/organic_block/icon-easy.svg",
             title: "Discounts",
             description: "We have weekly discounts on selected dishes."
         },
         {
             id: 4,
-            img: "../img/organic_block/icon-support.svg",
+            img: "img/organic_block/icon-support.svg",
             title: "Easy App",
             description: "Place orders on the go with our app."
         },
