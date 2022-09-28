@@ -62,8 +62,7 @@
 .prev-button-map:hover,
 .next-button-map:hover {
   background-color: #25d366;
-  color:rgb(255, 255, 255)
-  ;
+  color: rgb(255, 255, 255);
 }
 
 .map-carousel-clicks {
@@ -87,7 +86,39 @@
   background-color: #25d366;
 }
 
-/* Анимация слайдов */
+.clock-map-menu {
+  position: relative;
+  min-width: 320px;
+  padding: 30px 24px 30px 24px;
+  text-align: center;
+  border-style: double;
+  border-radius: 50px;
+  border-color: #25d366;
+  border-width: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  max-width: 700px;
+}
+
+.clock-map-text {
+  padding-bottom: 30px;
+  text-shadow: #3a3c43;
+  text-transform: uppercase;
+  font-family: Signika, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.coutdown-clock {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ecea52;
+  background-color: #25d366;
+  border-radius: 50%;
+}
 
 @media (min-width: 845px) {
   .map-text-style {
@@ -97,11 +128,27 @@
   .current_location {
     height: 550px;
   }
+
+  .coutdown-clock {
+    font-size: 25px;
+  }
+
+  .clock-map-text {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 992px) {
   .map-text-style {
     font-size: 60px;
+  }
+
+  .coutdown-clock {
+    font-size: 30px;
+  }
+
+  .clock-map-text {
+    font-size: 40px;
   }
 }
 
@@ -110,5 +157,13 @@
     width: 1171px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .coutdown-clock {
+    font-size: 40px;
+  }
+
+  .clock-map-text {
+    font-size: 45px;
   }
 }
