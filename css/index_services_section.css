@@ -80,11 +80,10 @@ article {
   }
 
 .decor{
-    content: "";
     position: absolute;
     width: 60px;
     height: 1px;
-    background-color: #3a3c43;
+    color: var(--main-color-text);
     opacity: .2;
     transform: translateX(0) translateY(-6px);
     right: auto;
