@@ -1,72 +1,16 @@
-.paragraph__green_text {
-    color: #44b749 !important;
-}
+/* ---------------- COMMON ---------------- */
 
-.plate__text,
-.reload__picture,
-.tea__picture,
-.menu__picture {
-    height: 60px;
-}
-
-.text__h2 {
+.graystripe {
+    position: relative;
+    padding-bottom: 30px;
     color: #3a3c43;
-}
-
-.picture__img {
-    height: 434.58px;
-    width: 428.5px;
-}
-
-.froots_info>div {
-    padding: 0 15px;
-
-}
-
-.froots_info {
-    display: flex;
-    padding: 85px 32px 95px;
-    background-color: #f5f4f3;
-    max-width: 900px;
-}
-
-.froots_info__text h2 {
-    text-align: left;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.2;
-
-}
-.froots_info__text p{
-    font-family: var(--main-font);
+    font-family: var(--title-font);
+    font-weight: 700;
 }
 
-
-.plate svg, 
-.reload svg, 
-.tea svg,
-.menu svg{
-    color: white;
-}
-
-.green_circle{
-    background: #44b749;
-    padding: 20px;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-}
-.icons{
-    padding: 95px 32px 100px;
-    text-align: center;
-}
-.icons>div{
-    display:inline-block;
-    width: 49%;
-    padding: 0 15px;
-    margin-top: 30px;
-}
-.pain_graystripe::after {
+.graystripe::after {
     content: "";
     position: absolute;
     width: 60px;
@@ -78,14 +22,150 @@
     transform: translateX(0) translateY(-6px);
     right: auto;
 }
-.pain_graystripe{
-    position: relative;
-    padding-bottom: 30px;
 
+/* ---------------- FRUTS ---------------- */
+
+.paragraph__green_text {
+    color: #44b749 !important;
 }
-.icons h2::after{
-    left:calc(50% - 30px);
+
+.plate__text,
+.reload__picture,
+.tea__picture,
+.menu__picture {
+    height: 40px;
 }
-.icons h3{
+
+.froots_info__picture {
+    min-width: 50%;
+}
+
+.picture__img {
+    width: 100%;
+}
+
+.froots_content > div {
+    padding: 0 15px;
+}
+
+.froots_info {
+    background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d004baf69171b00245a50b4_optimized_3840.webp) 50% 50% / cover no-repeat;
+}
+
+.froots-overlay {
+    padding: 85px 32px 95px;
+    background: rgba(247, 247, 244, 0.56);
+}
+
+.froots_content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.froots_info__text h2 {
+    text-align: left;
+}
+
+.froots_info__text p {
+    font-family: var(--main-font);
+}
+
+.text__paragraph {
+    margin-top: 30px;
+}
+
+.green_circle {
+    background: #44b749;
+    padding: 15px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+/* ---------------- ICONS ---------------- */
+
+.icons {
+    padding: 95px 32px 100px;
+    text-align: center;
+}
+
+.icons > div {
+    display:block;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+
+.icons svg {
+    color: white;
+}
+
+.icons h2 {
+    font-family: var(--title-font);
+}
+
+.text__h3 {
+    color: #212529;
+    font-family: var(--title-font);
+    white-space: nowrap;
+}
+
+.icons h2::after {
+    left: calc(50% - 30px);
+}
+
+.icons h3 {
     margin: 20px;
+}
+
+.green_circle:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 2px 10px rgb(122, 223, 122);
+}
+/* ---------------- MEDIA ---------------- */
+
+@media (max-width: 767px) {
+    .froots_content { flex-direction: column; }
+}
+
+@media (min-width: 768px) {
+    .icons > div {
+        display: inline-block;
+        width: 48%;
+    }
+    .tea .text__h3 span,
+    .menu .text__h3 span {
+        display: block;
+    }
+    .plate__text,
+    .reload__picture,
+    .tea__picture,
+    .menu__picture {
+        height: 60px;
+    }
+    .green_circle {
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .icons {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .icons > div {
+        width: 24%;
+        max-width: 300px;
+        padding: 0;
+    }
+    .plate .text__h3 span,
+    .reload .text__h3 span {
+        display: block;
+    }
+    .text__h3 {
+        white-space: normal;
+    }
 }

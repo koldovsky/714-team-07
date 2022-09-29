@@ -10,37 +10,59 @@
         font-size: 48px;
         font-family: var(--title-font);
         text-align: center;
+        margin: 10px;
     }
+
+    .food_names {
+        display: flex;
+        white-space: nowrap;
+        text-align: center;
+        margin: 10px;
+    }
+
 
     .swipes_of_food {
         color: black;
         font-family: var(--main-font);
         font-size: 16px;
         font-weight: 200;
-        text-align: center;
+        text-align: justify;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    
     }
 
     .bottom_of_menu {
         color: black;
         font-family: var(--title-font);
         text-align: center;
+        padding: 10px;
     }
 
     .smallerImage {
-        width: 300px;  
-     
-        padding: 15px;  
+        width: 300px;     
+        height: 250px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
-  
+
     .fullCard {
         width: 500px;
+        height: 470px;
         border: 1px solid #ccc;
         border-radius: 5px;
         margin: 10px 5px;
-        padding: 4px;
-     
+        
     }
    
+    
+
     .headers {
         font-weight: 600;
-    } 
+    }

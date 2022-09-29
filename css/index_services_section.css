@@ -11,6 +11,23 @@
     background: url("../img/services_section/services_bg.webp");
 }
 
+.services_content {
+    background-position: repeat center center;
+    background-size: contain;
+    background-origin: border-box;
+    box-sizing: border-box;
+    padding-top: 0px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
+}
+
+.services_content_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
 .services_content_head {
     padding-top: 0px;
     padding-right: 0px;
@@ -20,38 +37,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-
-/*Styles for headlines in servises-section*/
-.headline_h2 {
-    font-family: var(--title-font);
-    color: var(--main-color-text);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-  }
-
-.head_h3 {
-    font-family: var(--title-font);
-    color: var(--accent-color-text);
-    font-size: 24px;
-    font-weight: 700;
-  }
-  
-.decoration {
-    color: var(--main-color-text);
-    width: 60px;
-    height: 1px;
-    opacity: .2;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .content {
     margin-top: 20px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
 }
 
 .cards {
@@ -60,78 +50,88 @@
     font-size: var(--text-size);
     font-weight: var(--text-weight);
     background-color: white;
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-left: 25px;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    padding: 15px;
+    margin: 30px 15px 0px 15px;
+    max-width: 570px;
 }
 
-
-
-
-
-.services_content {
-    
-    background-position: repeat center center;
-    background-size: contain;
-    background-origin: padding-box;
-    padding-top: 0px;
-    padding-right: 24px;
-    padding-bottom: 0px;
-    padding-left: 24px;
+article {
+    box-sizing: border-box;
+    width: calc(100%+30px);
+    margin-left: -15px;
+    margin-right: -15px;
+    display: grid;
 }
 
-.healthy_box hot_cold free_office {
-    padding-top: 0px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+/*Styles for headlines in servises-section*/
+
+.headline_h2 {
+    font-family: var(--title-font);
+    color: var(--main-color-text);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+  }
+
+.decor{
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    color: var(--main-color-text);
+    opacity: .2;
+    transform: translateX(0) translateY(-6px);
+    right: auto;
+    left: calc(50% - 30px);
 }
+
+.head_h3 {
+    font-family: var(--title-font);
+    color: var(--accent-color-text);
+    font-size: 24px;
+    font-weight: 700;
+  }
+ 
+
 
 /*Section 'pictures'*/
 
 .pictures {
     background-color: var(--background-color-light);
+    box-sizing: border-box;
+    max-height: 1050px;
 }
 
 .pictures_content_delivery { 
-    background: url("../img/services_section/potato.webp");
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/potato.webp");
     background-origin: padding-box;
     background-position: no-repeat;
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-
-}
-
-.pictures_content_delivery_overlay {
-    background: rgba(0, 0, 0, 0.49);
-    margin-top: 0px;
-    margin-right: 32px;
-    margin-bottom: 0px;
-    margin-left: 32px;
-    padding-top: 100px;
-    padding-right: 0px;
+    padding-top: 55px;
     padding-bottom: 85px;
-    padding-left: 0px;
-}
-
-.picture_headlines {
-    padding-top: 155px;
-    padding-bottom: 185px;
-    
+    justify-content: center;
 }
 
 .picture_headlines_h2 {
     color: #ffffff; 
     text-align: center;
-    font-size: 69px;
+    font-size: 80px;
+    font-family: var(--title-font);
+    
+}
+
+@media (max-width: 765px) {
+    .services_content_cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .pictures_content_delivery {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }

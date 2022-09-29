@@ -27,6 +27,7 @@
   line-height: 3;
   font-family: Lato, sans-serif;
   font-weight: 400;
+  
 }
 
 .footer-nav-menu {
@@ -44,7 +45,8 @@
 .footer-speci,
 .footer-service,
 .logo-footer,
-.footer_follow_us {
+.footer_follow_us,
+.follow-us-p {
   justify-self: center;
   align-items: center;
   text-align: center;
@@ -73,7 +75,7 @@ footer li {
   color: rgb(58, 60, 67);
   display: flex;
   justify-content: center;
-  text-align: center;
+ 
 }
 
 .follow-us-p {
@@ -81,12 +83,8 @@ footer li {
   line-height: 1.4;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
-  text-decoration: none;
-  font-style: normal;
-  letter-spacing: 0;
+ 
   color: #3a3c43;
-  text-transform: none;
-  padding-bottom: 30px;
 }
 
 .footer_social_list {
@@ -169,7 +167,7 @@ footer a:hover {
   }
   .footer-nav-menu {
     display: grid;
-    grid-template-columns: 20fr 10fr 20fr 20fr 20fr 20fr;
+    grid-template-columns: 20fr 15fr 20fr 20fr 20fr 20fr;
     grid-gap: 10px;
     position: relative;
     width: 100%;
@@ -219,4 +217,8 @@ footer a:hover {
   .follow-us-p {
     text-align: end;
   }
+  .footer_menu {
+    max-width: 90%;
+  }
+
 }
