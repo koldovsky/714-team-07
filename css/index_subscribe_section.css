@@ -389,9 +389,8 @@
 
 .main_objects__down_part {
   margin-top: 60px;
-  /* vertical-align: baseline;
   box-sizing: border-box;
-  display: block; */
+  display: block;
   word-wrap: break-word;
   color: var(--main-color-text);
   box-sizing: border-box;

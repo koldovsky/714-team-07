@@ -21,7 +21,7 @@
     slideContainer.innerHTML = slides[slideIdx];
 
     // Responsive:
-    if (window.innerWidth >= 500) {
+    if (window.innerWidth >= 700) {
       const secondSlideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
       slideContainer.innerHTML += slides[secondSlideIdx];
     }
