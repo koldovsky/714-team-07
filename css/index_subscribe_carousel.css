@@ -16,12 +16,9 @@
   display: flex;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 
-.companies_carousel__slide-container div {
+/* .companies_carousel__slide-container div {
   display: block;
   margin: auto;
   width: 100%;
@@ -30,30 +27,62 @@
   align-items: center;
   align-content: center;
   align-self: center;
-}
+} */
 
 .companies_carousel__slide-container div img {
   display: block;
   margin: auto;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+  /* align-self: center; */
   object-fit: contain;
 }
 
+/* structure: button>div>svg */
+/* <button> */
 .companies-btn-prev {
   width: 24px;
   height: 24px;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.8;
+  transform: scaleX(-1);
+  background-color: var(--accent-color-text);
   align-self: center;
-  align-items: center;
 }
 
 .companies-btn-next {
   width: 24px;
   height: 24px;
+  opacity: 0.8;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--accent-color-text);
+  align-self: center;
+}
+
+/* <div> after button */
+.companies-btn-div {
+  position: absolute;
+  width: 36px;
+  height: 48px;
+}
+
+.products_carousel__prev-button {
   align-self: center;
   align-items: center;
+  width: 12px;
+  height: 12px;
+}
+
+/* svg button */
+.products_carousel__pic {
+  fill: #fff;
+  position: relative;
+  display: flex;
+  width: 15px;
+  margin: auto;
 }

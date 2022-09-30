@@ -401,12 +401,6 @@
   width: 312px;
 }
 
-/* .img-carousel_center {
-  display: block;
-  width: 100%;
-  justify-content: center;
-} */
-
 .div-carousel_center {
   display: flex;
   align-items: center;

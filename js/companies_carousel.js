@@ -47,7 +47,7 @@
   nextButton.addEventListener('click', nextSlide);
 
   const prevButton = document.querySelector(
-    '.container__products_carousel > .companies-btn-prev'
+    '.container__companies_carousel > .companies-btn-prev'
   );
   prevButton.addEventListener('click', prevSlide);
 
