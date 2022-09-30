@@ -50,6 +50,8 @@
         display: flex;
         justify-content: center;
         text-align: center;
+        margin: auto;
+        min-width: 320px;
     }
 
     .fullCard {
@@ -62,8 +64,6 @@
         
     }
    
-    
-
     .headers {
         font-weight: 600;
     }
