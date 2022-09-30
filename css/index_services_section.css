@@ -101,7 +101,6 @@ article {
 .pictures {
     background-color: var(--background-color-light);
     box-sizing: border-box;
-    max-height: 1050px;
     min-width: 320px;
 }
 
@@ -110,16 +109,29 @@ article {
     width: 100%;
 }
 
-.pictures_content_delivery {
+.picture_content_delivery {
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/potato.webp");
+    background-position: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+
 }
 
 .pictures_content_freshly {
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/wood.webp");
+    background-position: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 
 .pictures_content_delicious {
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/wine.webp");
+    background-position: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 
 .pictures_headline {
