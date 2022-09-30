@@ -1,0 +1,149 @@
+:root {
+  --color-green: rgb(129, 204, 0);
+}
+
+.prices {
+  background-image: url(../img/background-prices.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: inherit;
+  padding: 100px 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu-content {
+  font-family: "Signika", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #3a3c43;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.list-boxs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-boxs .card {
+  width: 32%;
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+}
+
+.list-boxs .card .head-card,
+.list-boxs .card .body-card {
+  background-color: #fff;
+  padding: 1.5rem 1rem;
+}
+
+.list-boxs .card .head-card {
+  color: #333;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transform: translateY(30px);
+  transition: transform 0.3s linear;
+  border-bottom: 1px solid #f2f2f2;
+}
+.list-boxs .card:hover .head-card {
+  transform: translateY(0);
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-boxs .card .ticket {
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 55px;
+  box-shadow: inset 0px 6px 6px -5px rgba(0, 0, 0, 0.25),
+    inset 0px -6px 6px -5px rgba(0, 0, 0, 0.25);
+}
+.list-boxs .starter .ticket {
+  background-color: var(--color-green);
+}
+.list-boxs .standard .ticket {
+  background-color: var(--color-green);
+}
+.list-boxs .premium .ticket {
+  background-color: var(--color-green);
+}
+
+.list-boxs .card .body-card {
+  transform: translateY(-30px);
+  transition: transform 0.3s linear;
+}
+.list-boxs .card:hover .body-card {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-boxs .card p {
+  font-size: 0.95rem;
+  color: #333;
+  text-align: justify;
+}
+.list-boxs .card .btn {
+  margin-top: 2rem;
+  padding: 0.6rem 1rem;
+  outline: none;
+  font-size: 0.85rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  min-width: 160px;
+  border: 1px solid #555;
+  background-color: #555;
+  color: rgb(245, 245, 245);
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.list-boxs .card .btn:hover {
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.15);
+}
+
+.list-boxs .starter .btn {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+.list-boxs .standard .btn {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+.list-boxs .premium .btn {
+  background: var(--color-green);
+  border-color: var(--color-green);
+}
+
+@media screen and (max-width: 750px) {
+  .list-boxs {
+    justify-content: space-around;
+  }
+  .list-boxs .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .list-boxs .card {
+    width: 95%;
+  }
+}
