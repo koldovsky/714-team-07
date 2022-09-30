@@ -20,7 +20,7 @@ function currentxSlide(n) {
 function showSlides(n) {
     let i;
     const slides = document.getElementsByClassName("current-location");
-    const dots = document.getElementsByClassName("slider-dots_item");
+    const dots = document.getElementsByClassName("map-clicks-item");
     if (n > slides.length) {
         slideIndex = 1
     }
