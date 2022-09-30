@@ -34,7 +34,7 @@
           <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
         </li>
         <li class="menu-list-item">
-          <a href="#delivery" class="menu__item">Delivery coverage</a>
+          <a href="prices.html" class="menu__item">Prices</a>
         </li>
         <li class="menu-list-item">
           <a href="#contacts" class="menu__item">Contacts</a>
@@ -54,6 +54,10 @@
             <a id="scroll" href="#">Try It Out!</a>
           </p>
         </div>
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+          <script src="js/clock_header.js"></script>
+        </div>
       </div>
     </div>
     <!--Olena Tofan END-->
@@ -62,7 +66,7 @@
       <div class="family-like__container">
         <img class="image-food" src="img/food.png" alt="Eat like a family" />
         <div class="text-heading__container">
-          <h2>Hello</h2>
+          <h2 class="title-like__family">Eat like a family</h2>
           <hr>
           <p>
             Great teams eat together and grow together.<br>Our high-quality,
@@ -90,7 +94,7 @@
               fill="currentColor"></path>
           </svg>
           <h2 class="text-heading">2. We make</h2>
-          <p>We cook your meal in the morning using only fresh ingredients.</p>
+          <p>We cook your meal in the morning<br> using only fresh ingredients.</p>
         </div>
         <div class="card-food__container">
           <svg class="food-image-icon" version="1.1" x="0px" y="0px" viewBox="0 0 100 100"
@@ -123,7 +127,7 @@
               fill="currentColor"></path>
           </svg>
           <h2 class="text-heading">3. We deliver</h2>
-          <p>Your meal will arrive before 11pm fresh and ready to eat.</p>
+          <p>Your meal will arrive before 11pm<br>fresh and ready to eat.</p>
         </div>
         <div class="card-food__container">
           <svg class="food-image-icon" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1000"
@@ -176,7 +180,7 @@
           </svg>
           <h2 class="text-heading">4. You eat</h2>
           <p>
-            It's best to start within 12 hours for maximum freshness and flavor.
+            It's best to start within 12 hours for<br>maximum freshness and flavor.
           </p>
         </div>
       </div>
@@ -471,8 +475,8 @@
         <div class="services_content_head">
           <div>
             <h2 class="headline_h2">Our Services</h2>
+            <hr class="decor">
           </div>
-          <hr class="decoration">
         </div>
         <div class="services_content_cards">
           <article class="food_delivery cards">
@@ -535,27 +539,31 @@
       </div>
     </section>
     <!--after-->
-    <section class="pictures">
-      <div class="pictures_content">
-        <div class="pictures_content_delivery">
-          <div class="pictures_content_delivery_overlay">
-            <div class="picture_headlines">
-              <h2 class="picture_headlines_h2">Delivery to Your Office</h2>
+    <section class="pictures wrap">
+      <div class="pictures_content carusel">
+        <div class="carusel_container">
+          <div class=" carusel_slide">
+            <div class="picture_content_delivery slide_1">
+              <div class="pictures_headline">
+                <h2 class="picture_headlines_h2">Delivery</h2>
+                  <br>
+                <h2 class="picture_headlines_h2"> to Your Office</h2>
+              </div>
             </div>
+            <div class="pictures_content_freshly slide_2">
+              <div class="pictures_headline">
+                <h2 class="picture_headlines_h2">Freshly Prepared Healthy Ingredients</h2>
+              </div>
+            </div>
+            <div class="pictures_content_delicious slide_3">
+              <div class="pictures_headline">
+                <h2 class="picture_headlines_h2">Delicious & Balanced Menu</h2>
+              </div>
+            </div> 
           </div>
-          <div class="pictures_content_freshly">
-            <div class="picture_headlines">
-              <!--<h2 class="picture_headlines_h2">Freshly Prepared Healthy Ingredients</h2>
-                            
-                            <img src="img/services_section/wood.webp" alt="wood" width="1200px">-->
-            </div>
-          </div>
-          <div class="pictures_content_delicious">
-            <div class="picture_headlines">
-              <!-- <h2 class="picture_headlines_h2">Delicious & Balanced Menu</h2>
-                            
-                            <img src="img/services_section/wine.webp" alt="wine" width="1200px">-->
-            </div>
+          <div class="btn_wrap">
+            <button class="btn btn-left"><i class="fa-sharp fa-solid fa-chevron-left"></i></button>
+            <button class="btn btn-right"><i class="fa-sharp fa-solid fa-chevron-right"></i></button>
           </div>
         </div>
       </div>
@@ -615,7 +623,8 @@
             </div>
           </div>
 
-          <div class="testim_direct"><button type="button" class="testim_prev">
+          <div class="testim_direct">
+            <button type="button" class="testim_prev">
               <div class="testim_b"></div><svg class="testim_pic" viewBox="0 0 30 30">
                 <defs>
                   <path
@@ -768,55 +777,29 @@
           </div>
           <div class="main_objects__down_part">
             <div id="carousel" class="down_part__carousel">
-              <!-- BOOTSTRAP Carousel: -->
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_airtel.png"
-                      alt="Airtel" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_argo.png"
-                      alt="Argo" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive"
-                      src="img/subscribe_section/small/slider_bobo_coworking.png" alt="Bobo" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_bone.png"
-                      alt="Bone" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_didi_insider.png"
-                      alt="DiDi" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_ideas_first.png"
-                      alt="Ideas First" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_just_in_time.png"
-                      alt="Just In Time" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive" src="img/subscribe_section/small/slider_paragon.png"
-                      alt="Paragon" />
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100 img-responsive"
-                      src="img/subscribe_section/small/slider_southern_company.png" alt="Southern Company" />
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+              <!-- Companies Carousel: -->
+              <div class="container__companies_carousel">
+                <button type="button" class="companies-btn-prev">
+                  <svg class="products_carousel__pic" viewBox="0 0 30 30">
+                    <defs>
+                      <path
+                        d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                        id="a-1662462789919"></path>
+                    </defs>
+                    <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
+                  </svg>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                <div class="companies_carousel__slide-container">
+                </div>
+                <button type="button" class="companies-btn-next">
+                  <svg class="products_carousel__pic" viewBox="0 0 30 30">
+                    <defs>
+                      <path
+                        d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                        id="a-1662462789919"></path>
+                    </defs>
+                    <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
+                  </svg>
                 </button>
               </div>
             </div>
@@ -1012,6 +995,7 @@
   <script src="js/map-carousel.js"></script>
   <script src="js/clock-map.js"></script>
   <script src="js/organicRenderingCards.js"></script>
+  <script src="js/companies_carousel.js"></script>
 </body>
 
 </html>

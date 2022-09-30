@@ -1,0 +1,71 @@
+.down_part__carousel {
+  display: flex;
+  /* max-width: 240px; */
+  width: 100%;
+  height: 185px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (600px) {
+  .down_part__carousel {
+    width: 100%;
+  }
+}
+
+.container__companies_carousel {
+  display: flex;
+  width: 240px;
+  /* width: 100%; */
+  height: 185px;
+}
+
+.companies_carousel__slide-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.companies_carousel__slide-container div img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.companies-btn-prev {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.8;
+  transform: scaleX(-1);
+  background-color: var(--accent-color-text);
+  align-self: center;
+}
+
+.companies-btn-next {
+  width: 24px;
+  height: 24px;
+  opacity: 0.8;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--accent-color-text);
+  align-self: center;
+}
+
+.products_carousel__prev-button {
+  align-self: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+}
+
+.products_carousel__pic {
+  fill: #fff;
+  position: relative;
+  display: flex;
+  width: 15px;
+  margin: auto;
+}
