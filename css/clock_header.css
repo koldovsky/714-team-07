@@ -1,0 +1,8 @@
+.clock {
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-family: "Signika", sans-serif;
+    letter-spacing: 7px;
+  }
