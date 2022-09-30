@@ -1,0 +1,59 @@
+.down_part__carousel {
+  display: flex;
+  max-width: 240px;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__companies_carousel {
+  display: flex;
+  width: 240px;
+  height: 200px;
+}
+
+.companies_carousel__slide-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.companies_carousel__slide-container div {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.companies_carousel__slide-container div img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  object-fit: contain;
+}
+
+.companies-btn-prev {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  align-items: center;
+}
+
+.companies-btn-next {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  align-items: center;
+}
