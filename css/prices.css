@@ -3,7 +3,7 @@
 }
 
 .prices {
-  background-image: url(/img/background-prices.jpg);
+  background-image: url(../img/background-prices.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
