@@ -65,11 +65,11 @@
 }
 
 /* <div> after button */
-.companies-btn-div {
+/* .companies-btn-div {
   position: absolute;
   width: 36px;
   height: 48px;
-}
+} */
 
 .products_carousel__prev-button {
   align-self: center;
