@@ -27,6 +27,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    margin: auto;
+    max-width: 70%;
 }
 
 .services_content_head {
