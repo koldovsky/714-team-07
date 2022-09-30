@@ -1,8 +1,18 @@
 .clock {
-    position: relative;
-    transform: translateX(-50%) translateY(-50%);
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-    font-family: "Signika", sans-serif;
-    letter-spacing: 7px;
+  position: relative;
+  transform: translateX(-50%) translateY(-50%);
+  color: #3a3c43;
+  font-size: 70px;
+  font-family: "Signika", sans-serif;
+  letter-spacing: 7px;
+  padding: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 1200px) {
+  .clock {
+    display: none;
   }
+}
