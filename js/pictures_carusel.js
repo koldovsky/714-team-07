@@ -26,5 +26,5 @@ window.addEventListener('load', () => {
 
     slider.addEventListener('transitionend', event => {
         console.log(1)
-    })
-})
+    });
+});
