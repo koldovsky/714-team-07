@@ -9,6 +9,7 @@
     padding-left: 0px;
     justify-content: center;
     background: url("../img/services_section/services_bg.webp");
+    min-width: 320px;
 }
 
 .services_content {
@@ -26,6 +27,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    margin: auto;
+    max-width: 70%;
 }
 
 .services_content_head {
@@ -98,22 +101,42 @@ article {
 .pictures {
     background-color: var(--background-color-light);
     box-sizing: border-box;
-    max-height: 1050px;
+    min-width: 320px;
 }
 
-.pictures_content { 
+.carusel_container {
+    display: block;
     width: 100%;
-    height: 595px;
+}
+
+.carusel_slide {
+    display:flex;
+    max-height: 590px;
+}
+
+.picture_content_delivery {
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/potato.webp");
     background-position: no-repeat;
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-    padding-top: 55px;
-    padding-bottom: 85px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+}
+
+.pictures_content_freshly {
+    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/wood.webp");
+    background-position: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.pictures_content_delicious {
+    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/wine.webp");
+    background-position: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
 }
 
 .pictures_headline {
@@ -126,7 +149,14 @@ article {
     text-align: center;
     font-size: 80px;
     font-family: var(--title-font);
-    line-height: 0.8;
+    line-height: 1;
+}
+
+.btn {
+    padding:20px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid black;
 }
 
 @media (max-width: 765px) {

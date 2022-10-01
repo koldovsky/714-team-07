@@ -1,7 +1,8 @@
 .main__subscribe {
-  /* background: url(https://res2.weblium.site/res/5cbdde868daa1d0023d51889/5d0044d969171b00245a4ea4_optimized_1920.webp) center 15.23% / cover no-repeat; */
   background: url('../img/subscribe_section/subscribe_background_image.png');
   box-shadow: 0 0 0 50000px rgba(0, 0, 0, 0.33) inset;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../img/subscribe_section/subscribe_background_image.png'); */
   background-position: center 50%;
   box-sizing: border-box;
   font-family: var(--main-font);
@@ -388,9 +389,8 @@
 
 .main_objects__down_part {
   margin-top: 60px;
-  /* vertical-align: baseline;
   box-sizing: border-box;
-  display: block; */
+  display: block;
   word-wrap: break-word;
   color: var(--main-color-text);
   box-sizing: border-box;
@@ -399,12 +399,6 @@
 .picture__img_slider {
   width: 312px;
 }
-
-/* .img-carousel_center {
-  display: block;
-  width: 100%;
-  justify-content: center;
-} */
 
 .div-carousel_center {
   display: flex;

@@ -1,7 +1,7 @@
 .map {
   position: relative;
   min-width: 320px;
-  padding: 50px 24px 70px 24px;
+  padding: 50px 0px 70px 0px;
 }
 
 .map-text-style {
@@ -26,6 +26,7 @@
   position: relative;
   min-width: 320px;
   padding-top: 50px;
+  padding: 50px 24px 0 24px;
 }
 
 .map_item {
@@ -88,15 +89,14 @@
 
 .clock-map-menu {
   position: relative;
-  min-width: 320px;
   padding: 30px 24px 30px 24px;
   text-align: center;
   border-style: double;
   border-radius: 50px;
   border-color: #25d366;
   border-width: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 24px;
+  margin-right: 24px;
   margin-top: 60px;
   margin-bottom: 50px;
   max-width: 700px;
@@ -113,7 +113,7 @@
 
 .coutdown-clock {
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   color: #ecea52;
   background-color: #25d366;
