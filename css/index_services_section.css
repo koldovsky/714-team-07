@@ -112,6 +112,8 @@ article {
 .carusel_slide {
     display:flex;
     max-height: 590px;
+    overflow: hidden;
+    transform: translateX(-320PX);
 }
 
 .picture_content_delivery {
@@ -152,11 +154,19 @@ article {
     line-height: 1;
 }
 
-.btn {
-    padding:20px;
+.btns {
+    background-color: rgb(255, 255, 255);
+    padding: 3px 10px;
+    margin: 0 4.5px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 24px;
     border: 2px solid black;
+    border-radius: 50%;
+    outline: none;
+}
+
+.transformAnimation {
+    transition: .4s all ease-in-out;
 }
 
 @media (max-width: 765px) {
