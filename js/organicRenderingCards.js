@@ -1,6 +1,7 @@
-(function () {
-    
-    const cards = 
+(async function () {
+
+    const response = await fetch('api/organicCards.json');
+    const cards = await response.json();
 
     const cartsContainer = document.querySelector('.organic__services');
 
