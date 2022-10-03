@@ -280,6 +280,36 @@
   display: block;
 }
 
+.subscribe_message_close {
+}
+
+.subscribe_message__message_content {
+}
+
+.message_contant__status_ico {
+}
+
+.message_contant__title_text {
+}
+
+.title_text__span {
+}
+
+.message_contant__text {
+}
+
+.text__span {
+}
+
+.message_contant__ok_btn {
+}
+
+.ok_btn__border {
+}
+
+.border__btn_text-content {
+}
+
 .join_email_list__p {
   color: var(--simple-color-text);
   display: block;
