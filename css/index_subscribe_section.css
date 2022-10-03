@@ -17,6 +17,7 @@
   position: relative;
   vertical-align: baseline;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .subscribe__inner {
