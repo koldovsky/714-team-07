@@ -268,6 +268,18 @@
   color: black;
 }
 
+.subscribe__modals {
+  display: none;
+  width: 320px;
+  height: 311.67px;
+  background-color: #3a3c43;
+}
+
+.modals__subscribe_message {
+  text-align: center;
+  display: block;
+}
+
 .join_email_list__p {
   color: var(--simple-color-text);
   display: block;
