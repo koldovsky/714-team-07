@@ -113,7 +113,7 @@ article {
     display:flex;
     max-height: 590px;
     overflow: hidden;
-    transform: translateX(-320PX);
+    transform: translateX(-320px);
 }
 
 .picture_content_delivery {
@@ -122,7 +122,6 @@ article {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-
 }
 
 .pictures_content_freshly {
@@ -155,13 +154,10 @@ article {
 }
 
 .btns {
-    background-color: rgb(255, 255, 255);
     padding: 3px 10px;
     margin: 0 4.5px;
     cursor: pointer;
     font-size: 24px;
-    border: 2px solid black;
-    border-radius: 50%;
     outline: none;
 }
 
