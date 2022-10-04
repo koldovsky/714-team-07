@@ -17,6 +17,7 @@
   position: relative;
   vertical-align: baseline;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .subscribe__inner {
@@ -265,6 +266,48 @@
 }
 .button__subscribe_text:hover span {
   color: black;
+}
+
+.subscribe__modals {
+  display: none;
+  width: 320px;
+  height: 311.67px;
+  background-color: #3a3c43;
+}
+
+.modals__subscribe_message {
+  text-align: center;
+  display: block;
+}
+
+.subscribe_message_close {
+}
+
+.subscribe_message__message_content {
+}
+
+.message_contant__status_ico {
+}
+
+.message_contant__title_text {
+}
+
+.title_text__span {
+}
+
+.message_contant__text {
+}
+
+.text__span {
+}
+
+.message_contant__ok_btn {
+}
+
+.ok_btn__border {
+}
+
+.border__btn_text-content {
 }
 
 .join_email_list__p {
