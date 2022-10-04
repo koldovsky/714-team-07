@@ -104,16 +104,22 @@ article {
     min-width: 320px;
 }
 
+.carusel {
+  max-width: 1650px; 
+  margin: auto;
+}
+
 .carusel_container {
     display: block;
     width: 100%;
+    overflow: hidden;
 }
 
 .carusel_slide {
     display:flex;
     max-height: 590px;
     overflow: hidden;
-    transform: translateX(-320px);
+    transform: translateX(-1650px);
 }
 
 .picture_content_delivery {
@@ -122,6 +128,8 @@ article {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
+    width: 100%;
+    
 }
 
 .pictures_content_freshly {
