@@ -128,7 +128,6 @@ article {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
-    width: 100%;
     
 }
 
@@ -138,6 +137,7 @@ article {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
+    
 }
 
 .pictures_content_delicious {
@@ -146,6 +146,11 @@ article {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 50%;
+    
+}
+
+.slide {
+    width: 100%;
 }
 
 .pictures_headline {
