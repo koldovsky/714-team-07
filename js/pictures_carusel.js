@@ -3,12 +3,13 @@ window.addEventListener('load', () => {
     const right = document.querySelector ('.btn-right');
 
     const slider = document.querySelector('.carusel_slide');
-    const images = document.querySelector('.carusel_slide slide_1 slide_2 slide_3');
+    const images = document.querySelectorAll('.slide');
 
     let counter = 0;
     const stepSize = images[0].clientWidth;
 
     slider.style.transform = 'translateX(' + `${-stepSize * counter}px`;
+
 
     right.addEventListener('click', () => {
         counter >= images.length -1 ? (counter = -1) : null;
