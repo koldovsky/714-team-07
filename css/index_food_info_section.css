@@ -1,11 +1,12 @@
 .food-info__section {
     background-image: url(../img/mybackground.webp);
     padding-bottom: 90px;
+    margin: 0 auto;
+    min-width: 320px;
 }
 
 .image-food {
     width: 100%;
-    margin-right: 70px;
 }
 
 .title-like__family {
@@ -47,11 +48,11 @@
 }
 
 @media (max-width: 767px) {
-    
+
     .title-like__family {
         font-size: 40px;
     }
-    
+
     .text-heading__container {
         padding: 0 15px;
     }
@@ -67,12 +68,13 @@
     .family-like__container {
         display: flex;
         align-items: center;
-        justify-content:center;
-        padding: 90px 0px 30px ;
+        justify-content: center;
+        padding: 90px 0px 30px;
     }
-    
+
     .image-food {
         width: 400px;
+        margin-right: 70px;
     }
 
     .title-like__family {
@@ -103,12 +105,8 @@
     .text-heading {
         font-size: 29px;
     }
+
+    .image-food {
+        margin-right: 70px;
+    }
 }
-
-
-
-
-
-
-
-
