@@ -132,7 +132,11 @@
   border-color: var(--color-green);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 950px) {
+  .prices {
+    padding-top: 150px;
+  }
+  
   .list-boxs {
     justify-content: space-around;
   }
