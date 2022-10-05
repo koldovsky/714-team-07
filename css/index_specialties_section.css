@@ -21,9 +21,9 @@
     padding: 10px;
 }
 
-.image-specialties__container {
-    display: flex;
-    justify-content: center;
+.image-adaptivity-container {
+    height: 300px;
+
 }
 
 .image-specialties {
@@ -44,7 +44,6 @@
         padding: 10px;
     }
 
-    .image-specialties {
-        /*width: 40px;*/
-    }
+    .
+
 }

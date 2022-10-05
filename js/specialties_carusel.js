@@ -1,10 +1,10 @@
 (function() {
 
     const slides = [
-        /*'<div><img src="img/dinner-food.jpeg" alt="Dinner"></div>',
-        '<div><img src="img/breakfast-food.jpg" alt="Breakfast"></div>',
-        '<div><img src="img/lunch-food.jpg" alt="Lunch"></div>',
-        '<div><img src="img/treats-food.jpg" alt="Treats"></div>'*/
+        '<div class="image-adaptivity-container"><img class="image-specialties" src="img/dinner-food.jpeg" alt="Dinner"></div>',
+        '<div class="image-adaptivity-container"><img class="image-specialties" src="img/breakfast-food.jpg" alt="Breakfast"></div>',
+        '<div class="image-adaptivity-container"><img class="image-specialties" src="img/lunch-food.jpg" alt="Lunch"></div>',
+        '<div class="image-adaptivity-container"><img class="image-specialties" src="img/treats-food.jpg" alt="Treats"></div>'
     ];
 
     let currentSlideIdx = 0;
@@ -22,6 +22,6 @@
 
     renderSlide();
 
-    setInterval(renderSlide, 1000);
+    setInterval(nextSlide, 5000);
 
 })();
