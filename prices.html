@@ -16,7 +16,7 @@
   </head>
   <body>
     <header id="header">
-      <div class="nav__page-logo">
+      <div id="nav__page-logo">
         <a href="index.html">
           <img
             width="300"
@@ -25,29 +25,33 @@
           />
         </a>
       </div>
-      <div id="flex-conteiner"></div>
-      <label class="burger-icon"
-        ><img id="burger-menu__icon" src="img/burger-menu-icon.png" alt=""
-      /></label>
-      <nav class="nav__menu">
-        <ul class="nav__menu-list">
-          <li class="menu-list-item" id="first-list-item">
-            <a href="#howItWorks" class="menu__item">How it works</a>
-          </li>
-          <li class="menu-list-item">
-            <a href="#specialities" class="menu__item">Specialities </a>
-          </li>
-          <li class="menu-list-item">
-            <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
-          </li>
-          <li class="menu-list-item">
-            <a href="prices.html" class="menu__item">Prices</a>
-          </li>
-          <li class="menu-list-item">
-            <a href="#contacts" class="menu__item">Contacts</a>
-          </li>
-        </ul>
-      </nav>
+      <div id="menu" class="overlay">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav__menu" id="nav">
+          <ul class="nav__menu-list">
+            <li class="menu-list-item" id="first-list-item">
+              <a href="#how-work-it" class="menu__item">How it works</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#organic-id" class="menu__item">Specialities </a>
+            </li>
+            <li class="menu-list-item">
+              <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="prices.html" class="menu__item">Prices</a>
+            </li>
+            <li class="menu-list-item">
+              <a href="#question_form" class="menu__item">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <script src="js/burger-menu.js"></script>
     </header>
     <main>
       <div class="prices">
