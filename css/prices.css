@@ -150,3 +150,70 @@
     width: 95%;
   }
 }
+
+.donation {
+  color: #f2f2f2;
+  background-image: url(../img/flag.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* max-width: 1200px; */
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: inherit;
+  padding: 220px 0;
+}
+
+.donation__conteiner {
+  width: 800px;
+  background-color: #0c6eddb4;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (max-width: 950px) {
+  .donation__conteiner {
+    width: 400px;
+  }
+}
+
+.donation__title {
+  color: yellow;
+  font-weight: bold;
+}
+
+.donation__main {
+  padding: 20px 30px 10px;
+  font-size: 24px;
+}
+
+#information {
+  text-decoration: none;
+  background-color: rgb(8, 8, 8);
+  padding: 12px 24px;
+  color: rgb(201, 1, 1);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+#donate {
+  text-decoration: none;
+  background-color: rgb(25, 75, 238);
+  padding: 10px 15px;
+  color: rgb(255, 251, 11);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
