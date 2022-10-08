@@ -7,6 +7,7 @@
 @import url(prices.css);
 @import url(index_food_menu.css);
 @import url(index_subscribe_section.css);
+@import url(index_subscribe_carousel.css);
 @import url(index_subscribe_section_media.css);
 @import url(index_testimonials_section.css);
 @import url(index_faq_section.css);
@@ -16,6 +17,5 @@
 @import url(question_form_section.css);
 @import url(footer.css);
 @import url(index_food_info_section.css);
-@import url(index_subscribe_carousel.css);
 @import url(index_specialties_section.css);
 @import url(index_specialties_carousel.css);

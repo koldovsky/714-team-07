@@ -22,15 +22,10 @@
 }
 
 .subscribe__inner {
-  /* padding-top: 0px;
-  padding-right: 15px;
-  padding-bottom: 0px;
-  padding-left: 15px; */
   line-height: 28.9px;
   overflow-wrap: break-word;
   vertical-align: baseline;
   justify-content: center;
-  /* display: block; */
   margin-left: 24px;
   margin-right: 24px;
   position: relative;

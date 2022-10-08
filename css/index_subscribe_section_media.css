@@ -1,17 +1,25 @@
 @media (min-width: 768px) {
   .subscribe__inner {
-    padding-right: 32px;
-    padding-left: 32px;
+    /* padding-right: 32px;
+    padding-left: 32px; */
+    margin-left: 32px;
+    margin-right: 32px;
   }
   .subscribe_text__h2 {
     font-size: 50px;
+  }
+
+  .subscribe__form_div {
+    max-width: 337px;
   }
 }
 
 @media (min-width: 1024px) {
   .subscribe__inner {
-    padding-right: 40px;
-    padding-left: 40px;
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    margin-left: 40px;
+    margin-right: 40px;
   }
   .subscribe_text__h2 {
     font-size: 60px;
