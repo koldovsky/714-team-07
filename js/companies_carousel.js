@@ -27,8 +27,6 @@
     }
 
     if (window.innerWidth >= 768) {
-      // const thirdSlideIdx = slideIdx + 2 >= slides.length ? 0 : slideIdx + 2;
-
       let thirdSlideIdx;
       if (slideIdx === 7) {
         thirdSlideIdx = 0;
@@ -57,9 +55,6 @@
     }
 
     if (window.innerWidth >= 992) {
-      // const fifthSlideIdx =
-      //   slideIdx + 4 >= slideContainer.length ? 3 : slideIdx + 4;
-
       let fifthSlideIdx;
       if (slideIdx === 5) {
         fifthSlideIdx = 0;
@@ -74,9 +69,6 @@
       }
 
       slideContainer.innerHTML += slides[fifthSlideIdx];
-
-      // const sixthSlideIdx =
-      //   slideIdx + 5 >= slideContainer.length ? 3 : slideIdx + 5;
 
       let sixthSlideIdx;
       if (slideIdx === 4) {
@@ -94,9 +86,6 @@
       }
 
       slideContainer.innerHTML += slides[sixthSlideIdx];
-
-      // const seventhSlideIdx =
-      //   slideIdx + 6 >= slideContainer.length ? 3 : slideIdx + 6;
 
       let seventhSlideIdx;
       if (slideIdx === 3) {
@@ -129,7 +118,7 @@
     showCurrentSlide();
   }
 
-  // setInterval(nextSlide, 4000);
+  setInterval(nextSlide, 4000);
   showCurrentSlide();
 
   const nextButton = document.querySelector(
