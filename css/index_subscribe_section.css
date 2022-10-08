@@ -22,17 +22,17 @@
 }
 
 .subscribe__inner {
-  padding-top: 0px;
+  /* padding-top: 0px;
   padding-right: 15px;
   padding-bottom: 0px;
-  padding-left: 15px;
+  padding-left: 15px; */
   line-height: 28.9px;
   overflow-wrap: break-word;
   vertical-align: baseline;
   justify-content: center;
   /* display: block; */
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 24px;
+  margin-right: 24px;
   position: relative;
   min-width: 272px;
 }
@@ -43,9 +43,9 @@
   box-sizing: border-box;
   display: block;
   font-family: inherit;
-  width: calc(100% + 30px);
-  margin-left: -15px;
-  margin-right: -15px;
+  /* width: calc(100% + 30px); */
+  /* margin-left: -15px;
+  margin-right: -15px; */
 }
 
 .text__field__subscribe_text {
@@ -113,8 +113,8 @@
   display: flex;
   color: var(--simple-color-text);
   box-sizing: border-box;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   max-width: 491px;
 }
 
