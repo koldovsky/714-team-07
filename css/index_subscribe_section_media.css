@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+  .subscribe__inner {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .subscribe_text__h2 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subscribe__inner {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .subscribe_text__h2 {
+    font-size: 60px;
+  }
+}

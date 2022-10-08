@@ -22,7 +22,7 @@
       </a>
     </div>
     <div id="menu" class="overlay">
-      <div id="menu-bar"  onclick="menuOnClick()">
+      <div id="menu-bar" onclick="menuOnClick()">
         <div id="bar1" class="bar"></div>
         <div id="bar2" class="bar"></div>
         <div id="bar3" class="bar"></div>
@@ -44,8 +44,8 @@
           <li class="menu-list-item">
             <a href="#question_form" class="menu__item">Contacts</a>
           </li>
-      </ul>
-     </nav>
+        </ul>
+      </nav>
     </div>
     <script src="js/burger-menu.js"></script>
   </header>
@@ -204,8 +204,8 @@
           <svg class="press-arrow" viewBox="0 0 30 30">
             <defs>
               <path
-                      d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                      id="a-1662462789919"></path>
+                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                id="a-1662462789919"></path>
             </defs>
             <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
           </svg>
@@ -215,13 +215,13 @@
           <svg class="press-arrow" viewBox="0 0 30 30">
             <defs>
               <path
-                      d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
-                      id="a-1662462789919"></path>
+                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                id="a-1662462789919"></path>
             </defs>
             <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
           </svg>
         </button>
-        </div>
+      </div>
       </div>
     </section>
     <!-- Chaban Dabylo end-->
@@ -777,6 +777,7 @@
             <hr class="subscribe_text__hr" />
           </div>
           <div class="text_field__join_email_list">
+            <br>
             <p class="join_email_list__p">
               Join our email list for HealthyEating news, articles, and other
               cool stuff.
@@ -787,14 +788,14 @@
           <div class="form_div__inner">
             <form class="form_div__form">
               <label class="form__framing">
-                <input type="email" class="form__input" placeholder="Email*" />
-                <input type="text" autocomplete="off" class="framing__text">
+                <input type="email" autocomplete="on" class="form__input" placeholder="Email*" required />
+                <input type="text" autocomplete="on" class="framing__text" required>
               </label>
+              <button type="button" type="submit" data-modal-open data-modal-target="#subscribe__modals"
+                class="form__button" id="#form__button">
+                Subscribe
+              </button>
             </form>
-            <button type="button" data-modal-open data-modal-target="#subscribe__modals" class="form__button"
-              id="#form__button">
-              Subscribe
-            </button>
             <!-- Subscribe modal window: -->
             <div data-modal class="is-hidden backdrop" id="#subscribe__modals" data-target="subscribe-modal">
               <div class="modal-form">
