@@ -4,6 +4,7 @@
   min-height: 185px;
   justify-content: space-between;
   align-items: center;
+  min-height: 340px;
 }
 
 .container__companies_carousel {
@@ -11,6 +12,7 @@
   min-height: 185px;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .companies_carousel__slide-container {
@@ -108,4 +110,6 @@
   display: flex;
   width: 15px;
   margin: auto;
+  align-items: center;
+  justify-content: center;
 }
