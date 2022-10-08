@@ -3,6 +3,11 @@
     justify-content: space-evenly;
 }
 
+.specialtiesProductsCarousel {
+    display: flex;
+    justify-content: space-around;
+}
+
 .specialtiesBtnPrev {
     width: 24px;
     height: 24px;
@@ -30,4 +35,16 @@
     display: flex;
     width: 15px;
     margin: auto;
+}
+
+.image-specialties {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 79.63%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 50%;
 }
