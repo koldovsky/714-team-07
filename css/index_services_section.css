@@ -133,7 +133,6 @@ article {
 
 .pictures_content_freshly {
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)), url("../img/services_section/wood.webp");
-    max-height: 690px ;
 }
 
 .pictures_content_delicious {
@@ -161,14 +160,21 @@ article {
     line-height: 1;
 }
 
-.btns {
+.btn_wrap {
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.btnss {
     padding: 3px 10px;
     margin: 0 4.5px;
     cursor: pointer;
     font-size: 24px;
     outline: none;
     z-index: 999;
-}
+    background-color: rgba(0, 0, 0, 0);
+}    
 
 .transformAnimation {
     transition: .4s all ease-in-out;
@@ -184,5 +190,28 @@ article {
     .pictures_content_delivery {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .pictures_content_freshly {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .pictures_content_delicious {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 765px) {
+    .slide {
+        padding-top: calc(50%-110px);
+        max-height: auto;
+        max-width: 100%px;
+        transform: translateX(-100%);
     }
 }
