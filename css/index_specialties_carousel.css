@@ -1,0 +1,50 @@
+.specialtiesCarouselSlides {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.specialtiesProductsCarousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.specialtiesBtnPrev {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.8;
+    transform: scaleX(-1);
+    background-color: var(--form-background-color);
+    align-self: center;
+}
+
+.specialtiesBtnNext {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--form-background-color);
+    align-self: center;
+}
+
+.press-arrow {
+    fill: #fff;
+    position: relative;
+    display: flex;
+    width: 15px;
+    margin: auto;
+}
+
+.image-specialties {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 79.63%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 50%;
+}

@@ -4,12 +4,16 @@
     background-size: cover;
     padding-top: 90px;
     padding-bottom: 90px;
+    font-family: (--main-font);
+    font-size: 17px;
 }
+
 .faq__wraper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
 }
+
 .faq__title-wraper {
     width: calc(100% + 30px);
     margin-left: -15px;
@@ -20,17 +24,101 @@
     align-items: flex-start;
     padding-bottom: 20px;
 }
+
 .faq__title {
     font-family: var(--title-font);
     font-size: 40px;
 }
+.faq__title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    left: 50%;
+    right: auto;
+    padding-top: 3px;
+    opacity: .2;
+    border-bottom: 1px solid #fff;
+}
+
 .faq__question {
     font-size: 21px;
     font-family: var(--main-font);
     text-align: left;
 }
+
 .faq__answer {
     font-size: 17px;
     font-family: var(--main-font);
-    text-align: left;
+    text-align: inherit;
+
 }
+.faq__question::after {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    opacity: .2;
+    border-bottom: 1px solid #fff;
+}
+
+.faq__form {
+    display: grid;
+    grid-row-gap: 30px;
+    margin-top: 45px;
+}
+.faq__cover {
+    margin-top: 50px;
+    text-align: center;
+}
+.faq__footer {
+    border: 2px solid var( --simple-color-text);
+    border-radius: 27px;
+    padding: 15px 30px;
+    width: auto;
+}
+.faq__button {
+    font-family: var(--main-font);
+    font-size: 16px;
+    text-align: center;
+    color: var(--simple-color-text);
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.faq__button:hover {
+    color: rgb(45, 40, 40);
+}
+.faq__footer:hover {
+    background-color: var(--simple-color-text);
+}
+
+
+
+@media(min-width: 700px) {
+    .faq__form {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: start;
+        grid-gap: 40px 0px;
+    }
+
+    .faq__title{
+        font-size: 50px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .faq__title {
+        font-size: 60px;
+    }
+}
+
+/* .faq-title__line {
+    display: inline-block; 
+    padding-left: 80px;
+    margin-bottom: 100px;
+    border: 0.1px solid #3a3c43;
+    background-color: #3a3c43;
+    opacity: .2;
+    right: 50%;
+} */

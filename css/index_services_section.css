@@ -105,20 +105,26 @@ article {
 }
 
 .carusel {
-  max-width: 1650px; 
+  max-width: 100%; 
+  height: 590px;
   margin: auto;
 }
 
 .carusel_container {
     display: block;
     width: 100%;
+    overflow: hidden;
 }
 
 .carusel_slide {
     display:flex;
     height: 590px;
-    transform: translateX(-1650px);
-    overflow: hidden;
+    transform: translateX(-100%);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
 }
 
 .picture_content_delivery {
@@ -135,7 +141,6 @@ article {
 
 .slide {
     width: 100%;
-    max-height: 790px;
     background-position: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -143,7 +148,7 @@ article {
 }
 
 .pictures_headline {
-    padding: 90px 0px;
+    padding: 200px 0px;
 }
 
 .picture_headlines_h2 {
@@ -155,14 +160,21 @@ article {
     line-height: 1;
 }
 
-.btns {
+.btn_wrap {
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.btnss {
     padding: 3px 10px;
     margin: 0 4.5px;
     cursor: pointer;
     font-size: 24px;
     outline: none;
     z-index: 999;
-}
+    background-color: rgba(0, 0, 0, 0);
+}    
 
 .transformAnimation {
     transition: .4s all ease-in-out;
@@ -178,5 +190,28 @@ article {
     .pictures_content_delivery {
         padding-top: 100px;
         padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .pictures_content_freshly {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .pictures_content_delicious {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 765px) {
+    .slide {
+        padding-top: calc(50%-110px);
+        max-height: auto;
+        max-width: 100%px;
+        transform: translateX(-100%);
     }
 }

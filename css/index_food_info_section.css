@@ -1,6 +1,8 @@
 .food-info__section {
     background-image: url(../img/mybackground.webp);
     padding-bottom: 90px;
+    margin: 0 auto;
+    min-width: 320px;
 }
 
 .image-food {
@@ -49,6 +51,7 @@
 
     .title-like__family {
         font-size: 40px;
+        padding-top: 50px;
     }
 
     .text-heading__container {
@@ -72,6 +75,7 @@
 
     .image-food {
         width: 400px;
+        margin-right: 70px;
     }
 
     .title-like__family {
