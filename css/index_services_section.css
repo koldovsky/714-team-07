@@ -106,7 +106,7 @@ article {
 
 .carusel {
   max-width: 100%; 
-  height: 590px;
+  height: 590p;
   margin: auto;
 }
 
@@ -209,9 +209,16 @@ article {
 
 @media (max-width: 765px) {
     .slide {
-        padding-top: calc(50%-110px);
         max-height: auto;
-        max-width: 100%px;
-        transform: translateX(-100%);
+        max-width: 100%;
+        transform: translateX(100%);
     }
 }
+
+@media (max-width: 765px) {
+    .picture_headlines_hh2 {
+        padding-top: 170px;
+    }
+}
+
+
