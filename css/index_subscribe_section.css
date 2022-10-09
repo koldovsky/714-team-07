@@ -38,9 +38,6 @@
   box-sizing: border-box;
   display: block;
   font-family: inherit;
-  /* width: calc(100% + 30px); */
-  /* margin-left: -15px;
-  margin-right: -15px; */
 }
 
 .text__field__subscribe_text {
@@ -79,13 +76,11 @@
   margin-block-start: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  /* margin-top: 30px; */
   justify-content: flex-start;
   position: relative;
   text-align: center;
   min-width: 272px;
   min-height: 78px;
-  /* width: 257.37px; */
 }
 
 .subscribe_text__hr,
@@ -100,7 +95,7 @@
 
 .subscribe__form_div {
   margin: auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   background: var(--form-background-color);
   font-weight: 400;
   font-size: 17px;
@@ -119,6 +114,10 @@
   display: flex;
   flex-direction: column;
   width: 490px;
+}
+
+.form_div__form {
+  margin-top: 12px;
 }
 
 .form__framing {
