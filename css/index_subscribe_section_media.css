@@ -1,0 +1,51 @@
+@media (min-width: 768px) {
+  .subscribe__inner {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .subscribe_text__h2 {
+    font-size: 50px;
+  }
+
+  .subscribe__form_div {
+    max-width: 337px;
+  }
+  .form_div__inner {
+    padding: 34px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subscribe__inner {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .subscribe_text__h2 {
+    font-size: 60px;
+  }
+  .subscribe__form_div {
+    max-width: 457px;
+  }
+
+  .form_div__inner {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .subscribe__inner {
+    margin-left: 135px;
+    margin-right: 135px;
+  }
+  .join_email_list__p {
+    font-size: 21px;
+  }
+  .subscribe__form_div {
+    max-width: 570px;
+    justify-content: center;
+  }
+
+  .form_div__inner {
+    width: 570px;
+  }
+}

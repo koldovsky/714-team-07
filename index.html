@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Office Lunch Delivery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -15,32 +16,38 @@
 <body>
   <!--Olena Tofan-->
   <header id="header">
-    <div class="nav__page-logo">
+    <div id="nav__page-logo">
       <a href="index.html">
         <img width="300" src="img/healthy-eating-logo.png" alt="HealthyEating logo" />
       </a>
     </div>
-    <div id="flex-conteiner"></div>
-    <label class="burger-icon"><img id="burger-menu__icon" src="img/burger-menu-icon.png" alt="" /></label>
-    <nav class="nav__menu">
-      <ul class="nav__menu-list">
-        <li class="menu-list-item" id="first-list-item">
-          <a href="#howItWorks" class="menu__item">How it works</a>
-        </li>
-        <li class="menu-list-item">
-          <a href="#specialities" class="menu__item">Specialities </a>
-        </li>
-        <li class="menu-list-item">
-          <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
-        </li>
-        <li class="menu-list-item">
-          <a href="prices.html" class="menu__item">Prices</a>
-        </li>
-        <li class="menu-list-item">
-          <a href="#contacts" class="menu__item">Contacts</a>
-        </li>
-      </ul>
-    </nav>
+    <div id="menu" class="overlay">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav__menu" id="nav">
+        <ul class="nav__menu-list">
+          <li class="menu-list-item" id="first-list-item">
+            <a href="#how-work-it" class="menu__item">How it works</a>
+          </li>
+          <li class="menu-list-item">
+            <a href="#organic-id" class="menu__item">Specialities </a>
+          </li>
+          <li class="menu-list-item">
+            <a href="weekly-menu.html" class="menu__item">Weekly menu</a>
+          </li>
+          <li class="menu-list-item">
+            <a href="prices.html" class="menu__item">Prices</a>
+          </li>
+          <li class="menu-list-item">
+            <a href="#question_form" class="menu__item">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="js/burger-menu.js"></script>
   </header>
   <main>
     <div class="header__main">
@@ -51,14 +58,14 @@
             <p class="header-title">that make you enjoy life more</p>
           </div>
           <p class="header__button">
-            <a id="scroll" href="#">Try It Out!</a>
+            <a id="scroll" href="#question_form">Try It Out!</a>
           </p>
         </div>
         <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-          <script src="js/clock_header.js"></script>
-        </div>
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script src="js/clock_header.js"></script>
       </div>
+    </div>
     </div>
     <!--Olena Tofan END-->
     <!-- Chaban Danylo start-->
@@ -67,8 +74,8 @@
         <img class="image-food" src="img/food.png" alt="Eat like a family" />
         <div class="text-heading__container">
           <h2 class="title-like__family">Eat like a family</h2>
-          <hr>
-          <p>
+          <hr class="heading-line">
+          <p class="food-info__text">
             Great teams eat together and grow together.<br>Our high-quality,
             family-style meals are designed to foster authentic<br> connection and
             team synergy.
@@ -185,6 +192,38 @@
         </div>
       </div>
     </section>
+    <section class="specialties-section">
+      <div class="specialties-container">
+        <h2 class="specialties-title">Our Specialties</h2>
+        <hr class="heading-line-specialties">
+        <p class="specialties-text">Breakfast, brunch, lunch, dinner and afternoon snacks — we are here to provide you
+          with delicious foods</p>
+      </div>
+      <div class="specialtiesProductsCarousel">
+        <button class="specialtiesBtnPrev">
+          <svg class="press-arrow" viewBox="0 0 30 30">
+            <defs>
+              <path
+                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                id="a-1662462789919"></path>
+            </defs>
+            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
+          </svg>
+        </button>
+        <div class="specialtiesCarouselSlides"></div>
+        <button class="specialtiesBtnNext">
+          <svg class="press-arrow" viewBox="0 0 30 30">
+            <defs>
+              <path
+                d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z"
+                id="a-1662462789919"></path>
+            </defs>
+            <use fill-rule="nonzero" opacity=".8" xlink:href="#a-1662462789919"></use>
+          </svg>
+        </button>
+      </div>
+      </div>
+    </section>
     <!-- Chaban Dabylo end-->
 
     <!-- Our Specialties START-->
@@ -219,11 +258,11 @@
             <p class="achievement__text">NY boroughs covered</p>
           </div>
           <div class="achievement__card">
-            <p class="achievement__count">20+</p>
+            <p class="achievement__count">20</p>
             <p class="achievement__text">Meals every day</p>
           </div>
           <div class="achievement__card">
-            <p class="achievement__count">12 000</p>
+            <p class="achievement__count">12000</p>
             <p class="achievement__text">Happy clients in 2022</p>
           </div>
           <div class="achievement__card">
@@ -538,32 +577,32 @@
         </div>
       </div>
     </section>
-    <!--after-->
+    <!--Pictures section-->
     <section class="pictures wrap">
       <div class="pictures_content carusel">
         <div class="carusel_container">
-          <div class=" carusel_slide">
-            <div class="picture_content_delivery slide_1">
+          <div class="carusel_slide">
+            <div class="picture_content_delivery slide">
               <div class="pictures_headline">
                 <h2 class="picture_headlines_h2">Delivery</h2>
-                  <br>
+                <br>
                 <h2 class="picture_headlines_h2"> to Your Office</h2>
               </div>
             </div>
-            <div class="pictures_content_freshly slide_2">
+            <div class="pictures_content_freshly slide">
               <div class="pictures_headline">
                 <h2 class="picture_headlines_h2">Freshly Prepared Healthy Ingredients</h2>
               </div>
             </div>
-            <div class="pictures_content_delicious slide_3">
+            <div class="pictures_content_delicious slide">
               <div class="pictures_headline">
                 <h2 class="picture_headlines_h2">Delicious & Balanced Menu</h2>
               </div>
-            </div> 
+            </div>
           </div>
           <div class="btn_wrap">
-            <button class="btn btn-left"><i class="fa-sharp fa-solid fa-chevron-left"></i></button>
-            <button class="btn btn-right"><i class="fa-sharp fa-solid fa-chevron-right"></i></button>
+            <button class="btns btn-left"><i class="fa-sharp fa-solid fa-chevron-left"></i></button>
+            <button class="btns btn-right"><i class="fa-sharp fa-solid fa-chevron-right"></i></button>
           </div>
         </div>
       </div>
@@ -721,14 +760,19 @@
             </p>
           </details>
         </div>
+        <div class="faq__cover">
+        <span class="faq__footer">
         <a class="faq__button" href="#">See all FAQ's</a>
+      </span>
+      </div>
       </div>
     </section>
     <!--Khrystyna Synytska end-->
 
-    <!-- Yaroslav Yenkala start-->
+    <!-- Yaroslav Yenkala start after hard reset-->
     <section class="main__subscribe">
       <div class="subscribe__inner">
+
         <div class="subscribe__text_field">
           <div class="text__field__subscribe_text">
             <h2 class="subscribe_text__h2">
@@ -737,6 +781,7 @@
             <hr class="subscribe_text__hr" />
           </div>
           <div class="text_field__join_email_list">
+            <br>
             <p class="join_email_list__p">
               Join our email list for HealthyEating news, articles, and other
               cool stuff.
@@ -745,16 +790,59 @@
         </div>
         <div class="subscribe__form_div">
           <div class="form_div__inner">
-            <form action="#" class="form_div__form">
+            <form class="form_div__form">
               <label class="form__framing">
-                <input type="email" class="form__input" placeholder="Email*" />
-                <input type="text" autocomplete="off" class="framing__text">
+                <input type="email" autocomplete="on" class="form__input" placeholder="Email*" required />
+                <input type="text" autocomplete="on" class="framing__text" required>
               </label>
-              <button type="submit" class="form__button">
-                <span class="button__subscribe_border"></span>
-                <span class="button__subscribe_text">Subscribe</span>
+              <button type="button" type="submit" data-modal-open data-modal-target="#subscribe__modals"
+                class="form__button" id="#form__button">
+                Subscribe
               </button>
             </form>
+            <!-- Subscribe modal window: -->
+            <div data-modal class="is-hidden backdrop" id="#subscribe__modals" data-target="subscribe-modal">
+              <div class="modal-form">
+                <div class="article-form">
+                  <div>
+                    <button type="button" data-modal-close data-close-button
+                      class="subscribe_message_close-button">&times;</button>
+                  </div>
+                  <div class="subscribe_message__message_content">
+                    <span class="message_content__status_ico">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 32" width="34" heigth="34">
+                        <g>
+                          <path
+                            d="M18.32 32c-1.51 0-2.93-.62-3.997-1.746-.43-.455-.43-1.19 0-1.645.43-.455 1.128-.455 1.558 0 .653.686 1.52 1.065 2.44 1.065.92 0 1.787-.38 2.438-1.066l19.03-20.077c.652-.687 1.01-1.6 1.01-2.572 0-.97-.358-1.885-1.01-2.572-1.344-1.418-3.532-1.418-4.876 0L24.31 14.573c-.43.454-1.13.454-1.56 0-.43-.454-.43-1.19 0-1.644L33.354 1.743c2.204-2.325 5.79-2.325 7.994 0 2.204 2.325 2.204 6.108 0 8.433l-19.03 20.077C21.25 31.38 19.83 32 18.32 32z">
+                          </path>
+                          <path fill-opacity=".359"
+                            d="M24 26.134l-3.295 3.44c-1.82 1.9-4.77 1.9-6.59 0L2.365 17.307c-1.82-1.9-1.82-4.98 0-6.88 1.82-1.9 4.77-1.9 6.59 0L24 26.133z">
+                          </path>
+                          <path
+                            d="M18.053 32c-1.592 0-3.088-.645-4.214-1.817L1.742 17.59c-2.324-2.42-2.324-6.354 0-8.773C2.868 7.645 4.365 7 5.957 7c1.592 0 3.088.645 4.213 1.817L25.66 24.94c.453.473.453 1.24 0 1.712l-3.393 3.53C21.142 31.356 19.645 32 18.053 32zM5.957 9.42c-.97 0-1.884.393-2.57 1.108-1.42 1.475-1.42 3.876 0 5.352l12.096 12.592c.686.715 1.6 1.11 2.57 1.11.97 0 1.884-.395 2.57-1.11l2.572-2.676L8.527 10.528c-.686-.715-1.6-1.11-2.57-1.11z">
+                          </path>
+                        </g>
+                      </svg>
+                    </span>
+                    <p class="message_contant__title_text">
+                      <span class="title_text__span">Thank you!</span>
+                    </p>
+                    <p class="message_contant__text">
+                      <span class="text__span">We will contact you shortly.
+                      </span>
+                    </p>
+                    <button type="button" data-modal-close class="message_contant__ok_btn">
+                      <span class="ok_btn__border" data-component="text">
+                        <span class="border__btn_text-content">Ok
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="subscribe__overlay"></div>
+            <!-- end Subscribe modal window: -->
           </div>
         </div>
       </div>
@@ -993,9 +1081,13 @@
     crossorigin="anonymous"></script>
   <script src="js/test-carousel.js"></script>
   <script src="js/map-carousel.js"></script>
+  <script src="js/specialties_carusel.js"></script>
   <script src="js/clock-map.js"></script>
   <script src="js/organicRenderingCards.js"></script>
   <script src="js/companies_carousel.js"></script>
+  <script src="js/pictures_carusel.js"></script>
+  <script src="js/subscribe_modal_refs_ib.js"></script>
+  <script src="js/organicCounter.js"></script>
 </body>
 
 </html>

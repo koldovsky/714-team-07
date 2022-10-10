@@ -123,6 +123,9 @@
     transform: scale(1.2);
     box-shadow: 0 0 2px 10px rgb(122, 223, 122);
 }
+.green_circle:hover{
+    transform-origin: 3px;
+}
 /* ---------------- MEDIA ---------------- */
 
 @media (max-width: 767px) {
