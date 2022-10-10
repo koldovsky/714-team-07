@@ -1,7 +1,7 @@
 .map {
   position: relative;
   min-width: 320px;
-  padding: 50px 0px 70px 0px;
+  padding: 50px 24px 70px 24px;
 }
 
 .map-text-style {
@@ -26,7 +26,6 @@
   position: relative;
   min-width: 320px;
   padding-top: 50px;
-  padding: 50px 24px 0 24px;
 }
 
 .map_item {
@@ -43,9 +42,9 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: rgb(255, 255, 255);
+  color: rgb(90, 161, 82);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
   transition: 0.4s ease;
   border-radius: 0 3px 3px 0;
   text-decoration: none;
@@ -63,7 +62,8 @@
 .prev-button-map:hover,
 .next-button-map:hover {
   background-color: #25d366;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
+
 }
 
 .map-carousel-clicks {
@@ -89,14 +89,16 @@
 
 .clock-map-menu {
   position: relative;
+  min-width: 320px;
   padding: 30px 24px 30px 24px;
   text-align: center;
+  
   border-style: double;
   border-radius: 50px;
-  border-color: #25d366;
+  border-color:#25d366;
   border-width: 10px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 60px;
   margin-bottom: 50px;
   max-width: 700px;
@@ -113,11 +115,11 @@
 
 .coutdown-clock {
   font-family: "Lato", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   color: #ecea52;
-  background-color: #25d366;
-  border-radius: 50%;
+background-color: #25d366;
+border-radius: 50%;
 }
 
 @media (min-width: 845px) {
@@ -128,17 +130,11 @@
   .current_location {
     height: 550px;
   }
-
   .coutdown-clock {
     font-size: 25px;
   }
-
   .clock-map-text {
-    font-size: 30px;
-  }
-  .clock-map-menu {
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 30px; 
   }
 }
 
@@ -146,13 +142,11 @@
   .map-text-style {
     font-size: 60px;
   }
-
   .coutdown-clock {
     font-size: 30px;
   }
-
   .clock-map-text {
-    font-size: 40px;
+    font-size: 40px; 
   }
 }
 
@@ -162,12 +156,10 @@
     margin-left: auto;
     margin-right: auto;
   }
-
   .coutdown-clock {
     font-size: 40px;
   }
-
   .clock-map-text {
-    font-size: 45px;
+    font-size: 45px; 
   }
 }
