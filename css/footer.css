@@ -40,13 +40,18 @@
   margin-right: auto;
   background-attachment: fixed;
 }
+footer li {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  color: rgb(58, 60, 67);
+  display: flex;
+  justify-content: center;
+}
 
 .footer-how,
 .footer-speci,
-.footer-service,
 .logo-footer,
-.footer_follow_us,
-.follow-us-p {
+.footer_follow_us {
   justify-self: center;
   align-items: center;
   text-align: center;
@@ -69,21 +74,14 @@
   border-style: none;
 }
 
-footer li {
-  font-family: "Lato", sans-serif;
-  font-size: 17px;
-  color: rgb(58, 60, 67);
-  display: flex;
-  justify-content: center;
- 
-}
+
 
 .follow-us-p {
   font-size: 20px;
   line-height: 1.4;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
- 
+ margin-left: auto;
   color: #3a3c43;
 }
 

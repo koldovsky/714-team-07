@@ -136,6 +136,10 @@
   .clock-map-text {
     font-size: 30px;
   }
+  .clock-map-menu {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 992px) {
