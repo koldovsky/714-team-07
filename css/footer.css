@@ -27,7 +27,6 @@
   line-height: 3;
   font-family: Lato, sans-serif;
   font-weight: 400;
-  
 }
 
 .footer-nav-menu {
@@ -41,12 +40,18 @@
   background-attachment: fixed;
 }
 
+footer li {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  color: rgb(58, 60, 67);
+  display: flex;
+  justify-content: center;
+}
+
 .footer-how,
 .footer-speci,
-.footer-service,
 .logo-footer,
-.footer_follow_us,
-.follow-us-p {
+.footer_follow_us {
   justify-self: center;
   align-items: center;
   text-align: center;
@@ -69,22 +74,16 @@
   border-style: none;
 }
 
-footer li {
-  font-family: "Lato", sans-serif;
-  font-size: 17px;
-  color: rgb(58, 60, 67);
-  display: flex;
-  justify-content: center;
- 
-}
+
 
 .follow-us-p {
   font-size: 20px;
   line-height: 1.4;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
- 
+  margin-left: auto;
   color: #3a3c43;
+  padding-left: 30px;
 }
 
 .footer_social_list {
@@ -165,13 +164,15 @@ footer a:hover {
   .follow-us-p {
     font-size: 21px;
   }
+
   .footer-nav-menu {
     display: grid;
-    grid-template-columns: 20fr 15fr 20fr 20fr 20fr 20fr;
+    grid-template-columns: 20fr 1fr 20fr 20fr 20fr 20fr;
     grid-gap: 10px;
     position: relative;
     width: 100%;
   }
+
   .footer_menu {
     width: 100%;
     margin-left: auto;
@@ -179,14 +180,17 @@ footer a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer-foto {
     width: 100%;
   }
+
   .footer-how,
   .footer-speci,
   .footer-service {
     justify-self: center;
   }
+
   .copiright {
     display: flex;
     flex-direction: row;
@@ -194,6 +198,7 @@ footer a:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .footer_social_list {
     display: flex;
     flex-direction: row;
@@ -205,18 +210,28 @@ footer a:hover {
   .follow-us-p {
     font-size: 23px;
   }
+
+  .footer-nav-menu {
+    display: grid;
+    grid-template-columns: 20fr 15fr 20fr 20fr 20fr 20fr;
+  }
+
   footer li {
     font-size: 16px;
   }
+
   .copiright {
     font-size: 15px;
   }
+
   .logo-footer {
     font-size: 14px;
   }
+
   .follow-us-p {
     text-align: end;
   }
+
   .footer_menu {
     max-width: 90%;
   }

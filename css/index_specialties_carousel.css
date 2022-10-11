@@ -48,3 +48,10 @@
     border: none;
     border-radius: 50%;
 }
+
+.name-specialties {
+    margin-top: 10px;
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 29px;
+}

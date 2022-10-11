@@ -2,6 +2,8 @@
   position: relative;
   min-width: 320px;
   padding: 50px 0px 70px 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .map-text-style {
@@ -24,7 +26,6 @@
 
 .current-maps {
   position: relative;
-  min-width: 320px;
   padding-top: 50px;
   padding: 50px 24px 0 24px;
 }
@@ -40,12 +41,10 @@
   position: absolute;
   top: 0;
   top: 45%;
-  width: auto;
-  margin-top: -22px;
   padding: 16px;
-  color: rgb(255, 255, 255);
+  color: rgb(70, 145, 93);
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
   transition: 0.4s ease;
   border-radius: 0 3px 3px 0;
   text-decoration: none;
@@ -58,12 +57,14 @@
 .next-button-map {
   right: 0;
   border-radius: 25px 0 0 25px;
+  padding-right: 15px;
+  margin-right: 24px;
 }
 
 .prev-button-map:hover,
 .next-button-map:hover {
   background-color: #25d366;
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
 }
 
 .map-carousel-clicks {
@@ -99,7 +100,7 @@
   margin-right: 24px;
   margin-top: 60px;
   margin-bottom: 50px;
-  max-width: 700px;
+  max-width: 750px;
 }
 
 .clock-map-text {
@@ -136,6 +137,16 @@
   .clock-map-text {
     font-size: 30px;
   }
+
+  .clock-map-menu {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .prev-button-map,
+  .next-button-map {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -149,6 +160,11 @@
 
   .clock-map-text {
     font-size: 40px;
+  }
+
+  .prev-button-map,
+  .next-button-map {
+    font-size: 50px;
   }
 }
 
@@ -165,5 +181,10 @@
 
   .clock-map-text {
     font-size: 45px;
+  }
+
+  .prev-button-map,
+  .next-button-map {
+    font-size: 60px;
   }
 }

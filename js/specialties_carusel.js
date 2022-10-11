@@ -1,10 +1,14 @@
 (function() {
 
   const slides = [
-    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/dinner-food.jpeg" alt="Dinner"></div>',
-    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/breakfast-food.jpg" alt="Breakfast"></div>',
-    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/lunch-food.jpg" alt="Lunch"></div>',
-    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/treats-food.jpg" alt="Treats"></div>'
+    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/dinner-food.jpeg" alt="Dinner">' +
+    '<p class="name-specialties">Dinner</p></div>',
+    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/breakfast-food.jpg" alt="Breakfast">' +
+    '<p class="name-specialties">Breakfast</p></div>',
+    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/lunch-food.jpg" alt="Lunch">' +
+    '<p class="name-specialties">Lunch</p></div>',
+    '<div class="image-adaptivity-container"><img class="image-specialties" src="img/treats-food.jpg" alt="Treats">' +
+    '<p class="name-specialties">Treats</p></div>'
   ];
 
   let currentSlideIdx = 0;
