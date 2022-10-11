@@ -1,6 +1,6 @@
-    /* food menu */
+ /* food menu */
     
-    
+    /*
     .background {
         background-image: url(../img/mybackground.webp);
     }
@@ -30,9 +30,9 @@
         min-width: 320px;
         display: flex;
         flex-direction: row;
-      /*  justify-content: space-around; */
+      justify-content: space-around;
         align-items: center;
-      /*  flex-wrap: wrap; */
+       flex-wrap: wrap; 
     
     }
 
@@ -66,4 +66,4 @@
    
     .headers {
         font-weight: 600;
-    }
+    } */
