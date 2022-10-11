@@ -171,4 +171,30 @@
     .text__h3 {
         white-space: normal;
     }
+    .fruits-subscribe {
+        display: inline-block;
+        float: right;
+        background: rgb(227 8 25);
+        border-radius: 0.25em;
+        padding: 0.1em 0.25em;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        opacity: 0;
+      }
+      
+      .fruits-subscribe a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      @keyframes subscribe-appear {
+        from {
+          opacity: 0;
+          transform: translate(-10%, -10%) rotate(-720deg) scale(0.2);
+        }
+        to {
+          opacity: 1;
+          transform: translate(-100%, -200%) rotate(0deg) scale(1);
+        }
 }
