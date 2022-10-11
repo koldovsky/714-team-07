@@ -183,8 +183,6 @@ article {
 @media (max-width: 765px) {
     .services_content_cards {
         grid-template-columns: 1fr;
-        margin-left: 30px;
-        margin-right: 30px;
         max-width: 85%;
     }
 }
